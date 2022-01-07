@@ -6,9 +6,23 @@ const Koa = require('koa')
 const KoaBody = require('koa-body')
 const router = require('./router')
 
+const log4js = require('./utils/log4j')
+
+const swagger = require('./api/swagger.config.js')
+const swaggerUI = require('./api/swagger.UI.js')
+
 
 const app = new Koa()
 app.use(KoaBody())
+app.use(swaggerUI)  //引入swagger ui
+
+app.use(swagger.routes())  //引入swagger router
 app.use(router.routes())
+
+// error-handling
+app.on('error', (err, ctx) => {
+    log4js.error(`${err.stack}`)
+});
+
 
 module.exports = app

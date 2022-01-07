@@ -1,5 +1,5 @@
 /**
- * 封装http层
+ * 封装http server层
  */
 const { APP_PORT } = require('../config')
 

@@ -1,11 +1,18 @@
 # koa2 项目
 
+2022/01/07
+
+- log4js封装, 统一输出日志管理
+- 接口文档模块swagger和jsdoc配置
+
+
+
 2022/01/06
 
 - 项目初始化
 - 环境变量配置(.env和config)
 - 动态路由封装
-- 拆分app层和http服务层(bin/www)
+- 拆分app层和http server服务层(bin/server.js)
 - 拆分controller层,service层和middleware层
 
 
@@ -32,9 +39,9 @@ test	--测试环境
 > // packages.json
 > 
 > "scripts": {
->     "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon ./src/bin/www",
->     "prod": "cross-env NODE_ENV=prod pm2 start ./src/bin/www",
->     "test": "cross-env NODE_ENV=test pm2 start ./src/bin/www"
+>     "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon ./src/bin/server.js",
+>     "prod": "cross-env NODE_ENV=prod pm2 start ./src/bin/server.js",
+>     "test": "cross-env NODE_ENV=test pm2 start ./src/bin/server.js"
 >   },
 > ```
 >
