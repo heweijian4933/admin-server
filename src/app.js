@@ -11,6 +11,7 @@ const log4js = require('./utils/log4j')
 const swagger = require('./api/swagger.config.js')
 const swaggerUI = require('./api/swagger.UI.js')
 
+require('./db')
 
 const app = new Koa()
 app.use(KoaBody())
@@ -21,7 +22,11 @@ app.use(router.routes())
 
 // error-handling
 app.on('error', (err, ctx) => {
-    log4js.error(`${err.stack}`)
+    log4js.error(`
+    ${JSON.stringify(ctx.request.body)}
+    ${JSON.stringify(ctx.request)}
+    ${err.stack}
+    `)
 });
 
 
