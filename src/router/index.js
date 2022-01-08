@@ -2,7 +2,7 @@
  * 封装动态路由
  */
 
-const router = require('koa-router')()
+const router = require('koa-router')({ prefix: '/api' })
 const fs = require('fs')
 
 //动态加载当前目录当中的路由模块

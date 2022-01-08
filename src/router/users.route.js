@@ -1,13 +1,8 @@
 const router = require('koa-router')({ prefix: '/users' })
-require('../api/users.api.js')
+const { login } = require('../controller/users.controller')
 
 
-router.post('/login', (ctx, next) => {
-
-    ctx.body = 'login'
-    ctx.body =ctx.request.body
-    // ctx.body = test
-})
+router.post('/login', login)
 
 router.get('/register', (ctx, next) => {
     ctx.body = 'register'

@@ -26,7 +26,7 @@ log4js.configure({
         error: {
             type: 'dateFile',
             filename: 'logs/error/error',
-            pattern: 'yyyy-MM-dd hh.log',   //日志输出位置
+            pattern: 'yyyy-MM-dd-hh.log',   //日志输出位置
             alwaysIncludePattern: true      // 设置文件名称为 filename + pattern
         }
     },

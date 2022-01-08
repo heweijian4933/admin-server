@@ -1,0 +1,7 @@
+[2022-01-08T17:16:17.205] [ERROR] error - TypeError: Cannot read property 'query' of undefined
+    at /Users/stephen_ho_account/Documents/code/admin-server/src/app.js:22:27
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at koaSwaggerUi (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa2-swagger-ui/dist/index.js:82:16)
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-body/index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
