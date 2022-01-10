@@ -1,17 +1,6 @@
 const User = require('../db/users.schema')
 
 module.exports = {
-<<<<<<< HEAD
-    async userLogin({ username, password }) {
-
-    },
-
-    async userFind({ username, password }) {
-        const res = await User.findOne({ username })
-        console.log(res);
-        return res
-    }
-=======
     /**
      * 
      * @param {*} param0 
@@ -30,5 +19,4 @@ module.exports = {
 
     }
 
->>>>>>> c531ae8e59606710e1ec7da47107a956d664a955
 }
