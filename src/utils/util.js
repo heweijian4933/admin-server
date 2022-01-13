@@ -5,17 +5,19 @@ const log4js = require('./log4j.js')
 const { BUSINESS_ERROR } = require('../config/err.type')
 
 module.exports = {
-    success({ data = {}, msg = 'OK', code = 200 }) {
+    success({ data = {}, msg = 'OK', code = 200 }, ctx) {
         log4js.debug(data);
-        return {
+        ctx.body = {
             code, data, msg
         }
+
     },
-    fail({ msg = BUSINESS_ERROR.msg, code = BUSINESS_ERROR.code, data = {} }) {
+    fail({ msg = BUSINESS_ERROR.msg, code = BUSINESS_ERROR.code, data = {} }, ctx) {
         log4js.debug(msg);
-        return {
+        ctx.body = {
             code, data, msg
         }
+        return
     },
 
     formateDate(date, rule) {
@@ -39,4 +41,20 @@ module.exports = {
         }
         return fmt;
     },
+
+    /**
+     * 分页结构封装
+     * @param {number} pageNum 
+     * @param {number} pageSize 
+     */
+    pager({ pageNum = 1, pageSize = 10 }) {
+        const skipIndex = (pageNum - 1) * pageSize
+        return {
+            page: {
+                pageNum,
+                pageSize,
+            },
+            skipIndex,
+        }
+    }
 }
