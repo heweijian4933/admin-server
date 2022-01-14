@@ -1,0 +1,390 @@
+db.getCollection("users").insert({
+    "userId": "1000000",
+    "userName": "admin",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "admin@manager.com",
+    "mobile": 13788888835,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 1,
+    "role": 0,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000001",
+    "userName": "user1000001",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000001@manager.com",
+    "mobile": 13788888836,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000002",
+    "userName": "user1000002",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000002@manager.com",
+    "mobile": 13788888838,
+    "sex": 1,
+    "deptId": [],
+    "job": "产品经理",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000003",
+    "userName": "user1000003",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000003@manager.com",
+    "mobile": 13788888840,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端高级开发",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000004",
+    "userName": "user1000004",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000004@manager.com",
+    "mobile": 13788888842,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端架构师",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000005",
+    "userName": "user1000005",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000005@manager.com",
+    "mobile": 13788888844,
+    "sex": 0,
+    "deptId": [],
+    "job": "测试",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000006",
+    "userName": "user1000006",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000006@manager.com",
+    "mobile": 13788888846,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000007",
+    "userName": "user1000007",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000007@manager.com",
+    "mobile": 13788888848,
+    "sex": 0,
+    "deptId": [],
+    "job": "产品经理",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000008",
+    "userName": "user1000008",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000008@manager.com",
+    "mobile": 13788888850,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端高级开发",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000009",
+    "userName": "user1000009",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000009@manager.com",
+    "mobile": 13788888852,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端架构师",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000010",
+    "userName": "user1000010",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000010@manager.com",
+    "mobile": 13788888854,
+    "sex": 1,
+    "deptId": [],
+    "job": "测试",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000011",
+    "userName": "user1000011",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000011@manager.com",
+    "mobile": 13788888856,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000012",
+    "userName": "user1000012",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000012@manager.com",
+    "mobile": 13788888858,
+    "sex": 1,
+    "deptId": [],
+    "job": "产品经理",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000013",
+    "userName": "user1000013",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000013@manager.com",
+    "mobile": 13788888860,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端高级开发",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000014",
+    "userName": "user1000014",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000014@manager.com",
+    "mobile": 13788888862,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端架构师",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000015",
+    "userName": "user1000015",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000015@manager.com",
+    "mobile": 13788888864,
+    "sex": 0,
+    "deptId": [],
+    "job": "测试",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000016",
+    "userName": "user1000016",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000016@manager.com",
+    "mobile": 13788888866,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000017",
+    "userName": "user1000017",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000017@manager.com",
+    "mobile": 13788888868,
+    "sex": 0,
+    "deptId": [],
+    "job": "产品经理",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000018",
+    "userName": "user1000018",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000018@manager.com",
+    "mobile": 13788888870,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端高级开发",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000019",
+    "userName": "user1000019",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000019@manager.com",
+    "mobile": 13788888872,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端架构师",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000020",
+    "userName": "user1000020",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000020@manager.com",
+    "mobile": 13788888874,
+    "sex": 1,
+    "deptId": [],
+    "job": "测试",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000021",
+    "userName": "user1000021",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000021@manager.com",
+    "mobile": 13788888876,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端小咯咯",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000022",
+    "userName": "user1000022",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000022@manager.com",
+    "mobile": 13788888878,
+    "sex": 1,
+    "deptId": [],
+    "job": "产品经理",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000023",
+    "userName": "user1000023",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000023@manager.com",
+    "mobile": 13788888880,
+    "sex": 0,
+    "deptId": [],
+    "job": "前端高级开发",
+    "state": 2,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000024",
+    "userName": "user1000024",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000024@manager.com",
+    "mobile": 13788888882,
+    "sex": 1,
+    "deptId": [],
+    "job": "前端架构师",
+    "state": 3,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})
+db.getCollection("users").insert({
+    "userId": "1000025",
+    "userName": "user1000025",
+    "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG",
+    "userEmail": "user1000025@manager.com",
+    "mobile": 13788888884,
+    "sex": 0,
+    "deptId": [],
+    "job": "测试",
+    "state": 1,
+    "role": 1,
+    "roleList": [],
+    "createTime": ISODate("2022-01-14T14:00:31+01:00"),
+    "lastLoginTime": ISODate("2022-01-14T14:00:31+01:00")
+})

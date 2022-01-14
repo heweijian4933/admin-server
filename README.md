@@ -1,9 +1,13 @@
 # koa2 项目
 
+2022/2/14
+
+- 完善用户接口 增删改查;
+- 优化 user.service 查询逻辑,实现模糊查询功能;
+
 2022/2/13
 
 - 完善用户接口 增删改查;
-
 
 2022/2/10
 
@@ -11,13 +15,13 @@
 - 增加用户模块中间件,初始化 token 校验
 
 2022/01/08
-- 修改 log4j error 级别导出文件的命名bug
-- 调整环境变量配置文件 config/index.js=>env.js
-- 引入mongoose 和 配置数据库
-- 封装成功返回和失败返回 到工具类utils中
-- 将常用的错误码封装到config/err.type.js
-- login接口初步调联,具体业务逻辑待修正
 
+- 修改 log4j error 级别导出文件的命名 bug
+- 调整环境变量配置文件 config/index.js=>env.js
+- 引入 mongoose 和 配置数据库
+- 封装成功返回和失败返回 到工具类 utils 中
+- 将常用的错误码封装到 config/err.type.js
+- login 接口初步调联,具体业务逻辑待修正
 
 2022/01/08
 

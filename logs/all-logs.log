@@ -1,0 +1,1947 @@
+[2022-01-14T11:02:03.386] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:02:03.389] [INFO] info - environment dev
+[2022-01-14T11:02:03.706] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:13:33.159] [INFO] info - MongoServerError: Cannot do exclusion on field userPwd in inclusion projection
+    at MessageStream.messageHandler (F:\code\node-koa\node_modules\mongodb\lib\cmap\connection.js:467:30)
+    at MessageStream.emit (events.js:311:20)
+    at processIncomingData (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at doWrite (_stream_writable.js:441:12)
+    at writeOrBuffer (_stream_writable.js:425:5)
+    at MessageStream.Writable.write (_stream_writable.js:316:11)
+    at Socket.ondata (_stream_readable.js:714:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+[2022-01-14T11:13:35.490] [INFO] info - MongoServerError: Cannot do exclusion on field userPwd in inclusion projection
+    at MessageStream.messageHandler (F:\code\node-koa\node_modules\mongodb\lib\cmap\connection.js:467:30)
+    at MessageStream.emit (events.js:311:20)
+    at processIncomingData (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at doWrite (_stream_writable.js:441:12)
+    at writeOrBuffer (_stream_writable.js:425:5)
+    at MessageStream.Writable.write (_stream_writable.js:316:11)
+    at Socket.ondata (_stream_readable.js:714:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+[2022-01-14T11:13:38.064] [INFO] info - MongoServerError: Cannot do exclusion on field userPwd in inclusion projection
+    at MessageStream.messageHandler (F:\code\node-koa\node_modules\mongodb\lib\cmap\connection.js:467:30)
+    at MessageStream.emit (events.js:311:20)
+    at processIncomingData (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at doWrite (_stream_writable.js:441:12)
+    at writeOrBuffer (_stream_writable.js:425:5)
+    at MessageStream.Writable.write (_stream_writable.js:316:11)
+    at Socket.ondata (_stream_readable.js:714:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+[2022-01-14T11:13:41.360] [INFO] info - MongoServerError: Cannot do exclusion on field userPwd in inclusion projection
+    at MessageStream.messageHandler (F:\code\node-koa\node_modules\mongodb\lib\cmap\connection.js:467:30)
+    at MessageStream.emit (events.js:311:20)
+    at processIncomingData (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (F:\code\node-koa\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at doWrite (_stream_writable.js:441:12)
+    at writeOrBuffer (_stream_writable.js:425:5)
+    at MessageStream.Writable.write (_stream_writable.js:316:11)
+    at Socket.ondata (_stream_readable.js:714:22)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+[2022-01-14T11:14:37.650] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:14:37.652] [INFO] info - environment dev
+[2022-01-14T11:14:37.712] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:15:18.360] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:15:18.363] [INFO] info - environment dev
+[2022-01-14T11:15:18.383] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:15:21.208] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:15:21.210] [INFO] info - environment dev
+[2022-01-14T11:15:21.235] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:15:41.906] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:15:41.909] [INFO] info - environment dev
+[2022-01-14T11:15:41.925] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:16:05.176] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:16:05.199] [INFO] info - environment dev
+[2022-01-14T11:16:05.274] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:17:30.476] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:17:30.479] [INFO] info - environment dev
+[2022-01-14T11:17:30.499] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:17:48.903] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:17:48.906] [INFO] info - environment dev
+[2022-01-14T11:17:48.998] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:19:36.087] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:19:36.092] [INFO] info - environment dev
+[2022-01-14T11:19:36.133] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:19:38.156] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:19:38.158] [INFO] info - environment dev
+[2022-01-14T11:19:38.188] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:20:09.104] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:20:09.107] [INFO] info - environment dev
+[2022-01-14T11:20:09.160] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:20:13.435] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:20:13.438] [INFO] info - environment dev
+[2022-01-14T11:20:13.502] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:21:05.014] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:21:05.016] [INFO] info - environment dev
+[2022-01-14T11:21:05.055] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:22:26.545] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:22:26.547] [INFO] info - environment dev
+[2022-01-14T11:22:26.565] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:22:30.356] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:22:30.359] [INFO] info - environment dev
+[2022-01-14T11:22:30.377] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:22:33.723] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:22:33.725] [INFO] info - environment dev
+[2022-01-14T11:22:33.745] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:22:43.400] [INFO] info - TypeError: res.toObject is not a function
+    at findManyUsers (F:\code\node-koa\src\service\users.service.js:69:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userList (F:\code\node-koa\src\controller\users.controller.js:76:23)
+    at async verifyToken (F:\code\node-koa\src\middleware\auth.js:22:5)
+[2022-01-14T11:23:10.260] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:10.269] [INFO] info - environment dev
+[2022-01-14T11:23:10.307] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:23:13.009] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:13.011] [INFO] info - environment dev
+[2022-01-14T11:23:13.039] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:23:20.333] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:20.335] [INFO] info - environment dev
+[2022-01-14T11:23:20.349] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:23:22.785] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:22.788] [INFO] info - environment dev
+[2022-01-14T11:23:22.833] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:23:23.473] [INFO] info - TypeError: res.toArray is not a function
+    at findManyUsers (F:\code\node-koa\src\service\users.service.js:69:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async userList (F:\code\node-koa\src\controller\users.controller.js:76:23)
+    at async verifyToken (F:\code\node-koa\src\middleware\auth.js:22:5)
+[2022-01-14T11:23:37.985] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:37.988] [INFO] info - environment dev
+[2022-01-14T11:23:38.009] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:23:40.186] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:23:40.189] [INFO] info - environment dev
+[2022-01-14T11:23:40.204] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:24:06.901] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:24:06.903] [INFO] info - environment dev
+[2022-01-14T11:24:06.953] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:28:56.761] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:28:56.764] [INFO] info - environment dev
+[2022-01-14T11:28:56.787] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:28:59.244] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:28:59.246] [INFO] info - environment dev
+[2022-01-14T11:28:59.263] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:04.076] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:04.079] [INFO] info - environment dev
+[2022-01-14T11:29:04.125] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:17.472] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:17.474] [INFO] info - environment dev
+[2022-01-14T11:29:17.491] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:22.577] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:22.580] [INFO] info - environment dev
+[2022-01-14T11:29:22.602] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:43.940] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:43.942] [INFO] info - environment dev
+[2022-01-14T11:29:43.996] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:49.382] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:49.384] [INFO] info - environment dev
+[2022-01-14T11:29:49.403] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:52.645] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:52.647] [INFO] info - environment dev
+[2022-01-14T11:29:52.663] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:29:54.516] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:29:54.519] [INFO] info - environment dev
+[2022-01-14T11:29:54.538] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:02.832] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:02.838] [INFO] info - environment dev
+[2022-01-14T11:30:02.862] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:20.346] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:20.362] [INFO] info - environment dev
+[2022-01-14T11:30:20.395] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:21.947] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:21.949] [INFO] info - environment dev
+[2022-01-14T11:30:21.966] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:23.714] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:23.716] [INFO] info - environment dev
+[2022-01-14T11:30:23.733] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:28.127] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:28.130] [INFO] info - environment dev
+[2022-01-14T11:30:28.156] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:35.668] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:35.670] [INFO] info - environment dev
+[2022-01-14T11:30:35.689] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:30:39.764] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:30:39.766] [INFO] info - environment dev
+[2022-01-14T11:30:39.782] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:05.519] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:05.523] [INFO] info - environment dev
+[2022-01-14T11:34:05.536] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:14.342] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:14.345] [INFO] info - environment dev
+[2022-01-14T11:34:14.364] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:21.807] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:21.810] [INFO] info - environment dev
+[2022-01-14T11:34:21.827] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:23.740] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:23.744] [INFO] info - environment dev
+[2022-01-14T11:34:23.762] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:30.484] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:30.486] [INFO] info - environment dev
+[2022-01-14T11:34:30.512] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:33.754] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:33.759] [INFO] info - environment dev
+[2022-01-14T11:34:33.776] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:36.955] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:36.957] [INFO] info - environment dev
+[2022-01-14T11:34:36.973] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:42.053] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:42.055] [INFO] info - environment dev
+[2022-01-14T11:34:42.073] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:47.260] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:47.262] [INFO] info - environment dev
+[2022-01-14T11:34:47.280] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:53.908] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:53.911] [INFO] info - environment dev
+[2022-01-14T11:34:53.931] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:57.546] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:57.548] [INFO] info - environment dev
+[2022-01-14T11:34:57.577] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:34:59.478] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:34:59.482] [INFO] info - environment dev
+[2022-01-14T11:34:59.506] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:03.580] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:03.583] [INFO] info - environment dev
+[2022-01-14T11:35:03.600] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:06.047] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:06.049] [INFO] info - environment dev
+[2022-01-14T11:35:06.085] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:09.481] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:09.483] [INFO] info - environment dev
+[2022-01-14T11:35:09.502] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:12.841] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:12.843] [INFO] info - environment dev
+[2022-01-14T11:35:12.861] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:14.622] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:14.624] [INFO] info - environment dev
+[2022-01-14T11:35:14.642] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:19.945] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:19.947] [INFO] info - environment dev
+[2022-01-14T11:35:19.962] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:35:24.625] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:35:24.628] [INFO] info - environment dev
+[2022-01-14T11:35:24.647] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:02.150] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:02.153] [INFO] info - environment dev
+[2022-01-14T11:36:02.177] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:18.616] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:18.618] [INFO] info - environment dev
+[2022-01-14T11:36:18.655] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:24.533] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:24.536] [INFO] info - environment dev
+[2022-01-14T11:36:24.562] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:38.281] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:38.284] [INFO] info - environment dev
+[2022-01-14T11:36:38.303] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:43.580] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:43.582] [INFO] info - environment dev
+[2022-01-14T11:36:43.595] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:49.522] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:49.524] [INFO] info - environment dev
+[2022-01-14T11:36:49.557] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:52.296] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:52.303] [INFO] info - environment dev
+[2022-01-14T11:36:52.327] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:36:59.868] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:36:59.871] [INFO] info - environment dev
+[2022-01-14T11:36:59.888] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:07.497] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:07.500] [INFO] info - environment dev
+[2022-01-14T11:37:07.520] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:16.817] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:16.820] [INFO] info - environment dev
+[2022-01-14T11:37:16.861] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:22.090] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:22.092] [INFO] info - environment dev
+[2022-01-14T11:37:22.112] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:26.386] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:26.389] [INFO] info - environment dev
+[2022-01-14T11:37:26.412] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:32.533] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:32.535] [INFO] info - environment dev
+[2022-01-14T11:37:32.557] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:37.568] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:37.571] [INFO] info - environment dev
+[2022-01-14T11:37:37.591] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:37:43.851] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:37:43.853] [INFO] info - environment dev
+[2022-01-14T11:37:43.879] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:39:32.248] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:39:32.251] [INFO] info - environment dev
+[2022-01-14T11:39:32.285] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:39:57.016] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:39:57.018] [INFO] info - environment dev
+[2022-01-14T11:39:57.044] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:40:09.870] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:40:09.872] [INFO] info - environment dev
+[2022-01-14T11:40:09.906] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:40:13.405] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:40:13.407] [INFO] info - environment dev
+[2022-01-14T11:40:13.424] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:40:21.715] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:40:21.717] [INFO] info - environment dev
+[2022-01-14T11:40:21.760] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:40:24.287] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:40:24.289] [INFO] info - environment dev
+[2022-01-14T11:40:24.311] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:42:02.250] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:42:02.253] [INFO] info - environment dev
+[2022-01-14T11:42:02.269] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:49:42.532] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:49:42.537] [INFO] info - environment dev
+[2022-01-14T11:49:42.571] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:49:47.011] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:49:47.014] [INFO] info - environment dev
+[2022-01-14T11:49:47.031] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:49:54.756] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:49:54.759] [INFO] info - environment dev
+[2022-01-14T11:49:54.785] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:49:56.440] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:49:56.442] [INFO] info - environment dev
+[2022-01-14T11:49:56.459] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:49:59.554] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:49:59.557] [INFO] info - environment dev
+[2022-01-14T11:49:59.594] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:50:02.844] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:50:02.846] [INFO] info - environment dev
+[2022-01-14T11:50:02.862] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:50:06.702] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:50:06.704] [INFO] info - environment dev
+[2022-01-14T11:50:06.719] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:50:10.733] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:50:10.739] [INFO] info - environment dev
+[2022-01-14T11:50:10.758] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:50:27.626] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:50:27.629] [INFO] info - environment dev
+[2022-01-14T11:50:27.653] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:13.827] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:13.830] [INFO] info - environment dev
+[2022-01-14T11:54:13.860] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:21.834] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:21.836] [INFO] info - environment dev
+[2022-01-14T11:54:21.854] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:23.283] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:23.285] [INFO] info - environment dev
+[2022-01-14T11:54:23.303] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:28.814] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:28.816] [INFO] info - environment dev
+[2022-01-14T11:54:28.830] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:36.911] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:36.914] [INFO] info - environment dev
+[2022-01-14T11:54:36.929] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:42.622] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:42.626] [INFO] info - environment dev
+[2022-01-14T11:54:42.654] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:45.552] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:45.555] [INFO] info - environment dev
+[2022-01-14T11:54:45.581] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:54:48.127] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:54:48.129] [INFO] info - environment dev
+[2022-01-14T11:54:48.166] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:55:00.475] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:55:00.503] [INFO] info - environment dev
+[2022-01-14T11:55:00.529] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:55:03.980] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:55:03.983] [INFO] info - environment dev
+[2022-01-14T11:55:03.997] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:55:27.327] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:55:27.332] [INFO] info - environment dev
+[2022-01-14T11:55:27.352] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:55:29.460] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:55:29.462] [INFO] info - environment dev
+[2022-01-14T11:55:29.476] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:01.362] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:01.365] [INFO] info - environment dev
+[2022-01-14T11:56:01.389] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:06.024] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:06.027] [INFO] info - environment dev
+[2022-01-14T11:56:06.049] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:09.372] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:09.374] [INFO] info - environment dev
+[2022-01-14T11:56:09.392] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:13.724] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:13.727] [INFO] info - environment dev
+[2022-01-14T11:56:13.746] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:20.178] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:20.180] [INFO] info - environment dev
+[2022-01-14T11:56:20.201] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:30.463] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:30.466] [INFO] info - environment dev
+[2022-01-14T11:56:30.481] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:56:32.935] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:56:32.937] [INFO] info - environment dev
+[2022-01-14T11:56:32.961] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:15.540] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:15.547] [INFO] info - environment dev
+[2022-01-14T11:57:15.560] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:26.927] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:26.929] [INFO] info - environment dev
+[2022-01-14T11:57:26.966] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:36.426] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:36.428] [INFO] info - environment dev
+[2022-01-14T11:57:36.444] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:39.589] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:39.591] [INFO] info - environment dev
+[2022-01-14T11:57:39.607] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:41.618] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:41.622] [INFO] info - environment dev
+[2022-01-14T11:57:41.639] [INFO] info - ***数据库连接成功***
+[2022-01-14T11:57:45.442] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T11:57:45.444] [INFO] info - environment dev
+[2022-01-14T11:57:45.457] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:00:23.867] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:00:23.869] [INFO] info - environment dev
+[2022-01-14T12:00:23.887] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:00:29.425] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:00:29.428] [INFO] info - environment dev
+[2022-01-14T12:00:29.442] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:00:46.318] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:00:46.321] [INFO] info - environment dev
+[2022-01-14T12:00:46.337] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:00:51.835] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:00:51.837] [INFO] info - environment dev
+[2022-01-14T12:00:51.852] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:00:55.771] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:00:55.773] [INFO] info - environment dev
+[2022-01-14T12:00:55.788] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:01:10.271] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:01:10.273] [INFO] info - environment dev
+[2022-01-14T12:01:10.293] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:01:18.977] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:01:18.981] [INFO] info - environment dev
+[2022-01-14T12:01:19.009] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:01:22.087] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:01:22.090] [INFO] info - environment dev
+[2022-01-14T12:01:22.103] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:11:29.008] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:11:29.011] [INFO] info - environment dev
+[2022-01-14T12:11:29.033] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:07.942] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:07.959] [INFO] info - environment dev
+[2022-01-14T12:12:07.985] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:09.761] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:09.764] [INFO] info - environment dev
+[2022-01-14T12:12:09.782] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:14.580] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:14.582] [INFO] info - environment dev
+[2022-01-14T12:12:14.601] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:24.789] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:24.791] [INFO] info - environment dev
+[2022-01-14T12:12:24.809] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:29.702] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:29.705] [INFO] info - environment dev
+[2022-01-14T12:12:29.720] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:32.553] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:32.555] [INFO] info - environment dev
+[2022-01-14T12:12:32.573] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:48.513] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:48.520] [INFO] info - environment dev
+[2022-01-14T12:12:49.921] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:49.923] [INFO] info - environment dev
+[2022-01-14T12:12:49.938] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:12:54.097] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:12:54.103] [INFO] info - environment dev
+[2022-01-14T12:12:54.138] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:01.498] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:01.500] [INFO] info - environment dev
+[2022-01-14T12:13:01.519] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:05.900] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:05.903] [INFO] info - environment dev
+[2022-01-14T12:13:05.937] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:08.989] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:08.991] [INFO] info - environment dev
+[2022-01-14T12:13:09.008] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:15.781] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:15.784] [INFO] info - environment dev
+[2022-01-14T12:13:15.801] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:23.465] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:23.469] [INFO] info - environment dev
+[2022-01-14T12:13:23.495] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:26.765] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:26.768] [INFO] info - environment dev
+[2022-01-14T12:13:26.790] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:34.999] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:35.003] [INFO] info - environment dev
+[2022-01-14T12:13:35.025] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:40.969] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:40.972] [INFO] info - environment dev
+[2022-01-14T12:13:40.989] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:13:44.392] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:13:44.394] [INFO] info - environment dev
+[2022-01-14T12:13:44.412] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:14:21.225] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:14:21.228] [INFO] info - environment dev
+[2022-01-14T12:14:21.251] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:14:39.737] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:14:39.740] [INFO] info - environment dev
+[2022-01-14T12:14:39.769] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:16:04.249] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:16:04.252] [INFO] info - environment dev
+[2022-01-14T12:16:04.268] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:16:11.443] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:16:11.448] [INFO] info - environment dev
+[2022-01-14T12:16:11.481] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:16:13.259] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:16:13.262] [INFO] info - environment dev
+[2022-01-14T12:16:13.280] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:16:18.672] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:16:18.674] [INFO] info - environment dev
+[2022-01-14T12:16:18.692] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:16:22.732] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:16:22.734] [INFO] info - environment dev
+[2022-01-14T12:16:22.753] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:17:57.136] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:17:57.203] [INFO] info - environment dev
+[2022-01-14T12:17:57.228] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:18:00.022] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:18:00.027] [INFO] info - environment dev
+[2022-01-14T12:18:00.048] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:18:54.611] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:18:54.613] [INFO] info - environment dev
+[2022-01-14T12:18:54.627] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:19:16.532] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:19:16.534] [INFO] info - environment dev
+[2022-01-14T12:19:16.554] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:19:21.224] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:19:21.227] [INFO] info - environment dev
+[2022-01-14T12:19:21.249] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:19:41.971] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:19:41.975] [INFO] info - environment dev
+[2022-01-14T12:19:41.995] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:19:45.573] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:19:45.575] [INFO] info - environment dev
+[2022-01-14T12:19:45.593] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:19:52.805] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:19:52.808] [INFO] info - environment dev
+[2022-01-14T12:19:52.828] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:20:05.749] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:20:05.752] [INFO] info - environment dev
+[2022-01-14T12:20:05.768] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:20:45.701] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:20:45.703] [INFO] info - environment dev
+[2022-01-14T12:20:45.733] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:12.568] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:12.570] [INFO] info - environment dev
+[2022-01-14T12:21:12.589] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:14.275] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:14.278] [INFO] info - environment dev
+[2022-01-14T12:21:14.296] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:17.527] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:17.530] [INFO] info - environment dev
+[2022-01-14T12:21:17.545] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:23.720] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:23.722] [INFO] info - environment dev
+[2022-01-14T12:21:23.742] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:33.751] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:33.753] [INFO] info - environment dev
+[2022-01-14T12:21:33.802] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:38.368] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:38.370] [INFO] info - environment dev
+[2022-01-14T12:21:38.386] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:45.018] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:45.021] [INFO] info - environment dev
+[2022-01-14T12:21:45.038] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:48.208] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:48.213] [INFO] info - environment dev
+[2022-01-14T12:21:48.236] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:49.595] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:49.597] [INFO] info - environment dev
+[2022-01-14T12:21:49.614] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:53.910] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:53.913] [INFO] info - environment dev
+[2022-01-14T12:21:53.927] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:21:57.485] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:21:57.488] [INFO] info - environment dev
+[2022-01-14T12:21:57.516] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:02.595] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:02.598] [INFO] info - environment dev
+[2022-01-14T12:22:02.613] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:15.367] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:15.370] [INFO] info - environment dev
+[2022-01-14T12:22:15.390] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:39.575] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:39.577] [INFO] info - environment dev
+[2022-01-14T12:22:39.596] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:42.585] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:42.587] [INFO] info - environment dev
+[2022-01-14T12:22:42.603] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:52.535] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:52.537] [INFO] info - environment dev
+[2022-01-14T12:22:52.557] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:22:57.241] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:22:57.243] [INFO] info - environment dev
+[2022-01-14T12:22:57.260] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:02.195] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:02.198] [INFO] info - environment dev
+[2022-01-14T12:23:02.217] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:09.556] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:09.558] [INFO] info - environment dev
+[2022-01-14T12:23:09.576] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:13.166] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:13.169] [INFO] info - environment dev
+[2022-01-14T12:23:13.185] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:22.087] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:22.090] [INFO] info - environment dev
+[2022-01-14T12:23:22.110] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:26.235] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:26.241] [INFO] info - environment dev
+[2022-01-14T12:23:26.261] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:33.370] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:33.373] [INFO] info - environment dev
+[2022-01-14T12:23:33.389] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:35.850] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:35.854] [INFO] info - environment dev
+[2022-01-14T12:23:35.871] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:43.005] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:43.008] [INFO] info - environment dev
+[2022-01-14T12:23:43.027] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:46.174] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:46.176] [INFO] info - environment dev
+[2022-01-14T12:23:46.192] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:50.147] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:50.151] [INFO] info - environment dev
+[2022-01-14T12:23:50.177] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:51.962] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:51.965] [INFO] info - environment dev
+[2022-01-14T12:23:51.981] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:23:56.715] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:23:56.717] [INFO] info - environment dev
+[2022-01-14T12:23:56.732] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:24:36.852] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:24:36.856] [INFO] info - environment dev
+[2022-01-14T12:24:36.885] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:24:41.361] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:24:41.365] [INFO] info - environment dev
+[2022-01-14T12:24:41.389] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:24:44.602] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:24:44.605] [INFO] info - environment dev
+[2022-01-14T12:24:44.626] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:24:52.267] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:24:52.270] [INFO] info - environment dev
+[2022-01-14T12:24:52.298] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:05.565] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:05.568] [INFO] info - environment dev
+[2022-01-14T12:25:05.587] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:08.408] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:08.410] [INFO] info - environment dev
+[2022-01-14T12:25:08.424] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:14.568] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:14.570] [INFO] info - environment dev
+[2022-01-14T12:25:14.584] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:18.838] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:18.841] [INFO] info - environment dev
+[2022-01-14T12:25:18.863] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:29.853] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:29.855] [INFO] info - environment dev
+[2022-01-14T12:25:29.886] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:33.108] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:33.110] [INFO] info - environment dev
+[2022-01-14T12:25:33.127] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:44.855] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:44.861] [INFO] info - environment dev
+[2022-01-14T12:25:44.881] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:46.821] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:46.824] [INFO] info - environment dev
+[2022-01-14T12:25:46.850] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:25:58.541] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:25:58.543] [INFO] info - environment dev
+[2022-01-14T12:25:58.562] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:00.503] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:00.512] [INFO] info - environment dev
+[2022-01-14T12:26:00.535] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:01.952] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:01.954] [INFO] info - environment dev
+[2022-01-14T12:26:01.971] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:05.445] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:05.447] [INFO] info - environment dev
+[2022-01-14T12:26:05.463] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:07.439] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:07.441] [INFO] info - environment dev
+[2022-01-14T12:26:07.455] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:12.030] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:12.033] [INFO] info - environment dev
+[2022-01-14T12:26:12.048] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:21.659] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:21.662] [INFO] info - environment dev
+[2022-01-14T12:26:21.697] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:24.212] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:24.216] [INFO] info - environment dev
+[2022-01-14T12:26:24.229] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:26.197] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:26.199] [INFO] info - environment dev
+[2022-01-14T12:26:26.221] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:31.374] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:31.376] [INFO] info - environment dev
+[2022-01-14T12:26:31.394] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:37.327] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:37.329] [INFO] info - environment dev
+[2022-01-14T12:26:37.344] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:43.471] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:43.473] [INFO] info - environment dev
+[2022-01-14T12:26:43.488] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:26:56.589] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:26:56.591] [INFO] info - environment dev
+[2022-01-14T12:26:56.615] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:27:02.123] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:27:02.125] [INFO] info - environment dev
+[2022-01-14T12:27:02.145] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:27:07.026] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:27:07.029] [INFO] info - environment dev
+[2022-01-14T12:27:07.044] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:27:20.671] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:27:20.675] [INFO] info - environment dev
+[2022-01-14T12:27:20.692] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:27:59.822] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:27:59.825] [INFO] info - environment dev
+[2022-01-14T12:27:59.851] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:28:11.574] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:28:11.579] [INFO] info - environment dev
+[2022-01-14T12:28:11.600] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:29:11.005] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:29:11.009] [INFO] info - environment dev
+[2022-01-14T12:29:11.029] [INFO] info - ***数据库连接成功***
+[2022-01-14T12:31:50.119] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T12:31:50.122] [INFO] info - environment dev
+[2022-01-14T12:31:50.149] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:38:50.087] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:38:50.089] [INFO] info - environment dev
+[2022-01-14T13:38:50.115] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:38:54.397] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:38:54.399] [INFO] info - environment dev
+[2022-01-14T13:38:54.418] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:40:19.363] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:40:19.365] [INFO] info - environment dev
+[2022-01-14T13:40:19.383] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:40:26.124] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:40:26.127] [INFO] info - environment dev
+[2022-01-14T13:40:26.147] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:16.399] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:16.402] [INFO] info - environment dev
+[2022-01-14T13:41:16.420] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:25.352] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:25.355] [INFO] info - environment dev
+[2022-01-14T13:41:25.373] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:29.191] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:29.193] [INFO] info - environment dev
+[2022-01-14T13:41:29.207] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:33.957] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:33.959] [INFO] info - environment dev
+[2022-01-14T13:41:33.973] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:35.862] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:35.864] [INFO] info - environment dev
+[2022-01-14T13:41:35.882] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:38.934] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:38.936] [INFO] info - environment dev
+[2022-01-14T13:41:38.953] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:43.773] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:43.780] [INFO] info - environment dev
+[2022-01-14T13:41:43.809] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:49.441] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:49.443] [INFO] info - environment dev
+[2022-01-14T13:41:49.460] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:57.816] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:57.820] [INFO] info - environment dev
+[2022-01-14T13:41:57.872] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:41:59.377] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:41:59.380] [INFO] info - environment dev
+[2022-01-14T13:41:59.397] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:42:24.517] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:42:24.519] [INFO] info - environment dev
+[2022-01-14T13:42:24.539] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:42:28.636] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:42:28.640] [INFO] info - environment dev
+[2022-01-14T13:42:28.655] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:42:32.032] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:42:32.034] [INFO] info - environment dev
+[2022-01-14T13:42:32.055] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:43:35.180] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:43:35.184] [INFO] info - environment dev
+[2022-01-14T13:43:35.206] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:43:37.889] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:43:37.891] [INFO] info - environment dev
+[2022-01-14T13:43:37.906] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:43:41.488] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:43:41.490] [INFO] info - environment dev
+[2022-01-14T13:43:41.511] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:43:58.595] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:43:58.609] [INFO] info - environment dev
+[2022-01-14T13:43:58.651] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:01.730] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:01.733] [INFO] info - environment dev
+[2022-01-14T13:44:01.749] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:05.747] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:05.750] [INFO] info - environment dev
+[2022-01-14T13:44:05.764] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:08.142] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:08.144] [INFO] info - environment dev
+[2022-01-14T13:44:08.160] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:13.521] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:13.523] [INFO] info - environment dev
+[2022-01-14T13:44:13.538] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:20.201] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:20.205] [INFO] info - environment dev
+[2022-01-14T13:44:20.223] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:30.762] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:30.764] [INFO] info - environment dev
+[2022-01-14T13:44:30.790] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:40.412] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:40.414] [INFO] info - environment dev
+[2022-01-14T13:44:40.444] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:44.404] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:44.406] [INFO] info - environment dev
+[2022-01-14T13:44:44.422] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:49.057] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:49.060] [INFO] info - environment dev
+[2022-01-14T13:44:49.077] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:53.708] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:53.733] [INFO] info - environment dev
+[2022-01-14T13:44:53.806] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:57.533] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:57.535] [INFO] info - environment dev
+[2022-01-14T13:44:57.552] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:44:59.583] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:44:59.585] [INFO] info - environment dev
+[2022-01-14T13:44:59.600] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:03.130] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:03.131] [INFO] info - environment dev
+[2022-01-14T13:45:03.155] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:23.444] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:23.447] [INFO] info - environment dev
+[2022-01-14T13:45:23.470] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:25.628] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:25.630] [INFO] info - environment dev
+[2022-01-14T13:45:25.648] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:27.255] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:27.258] [INFO] info - environment dev
+[2022-01-14T13:45:27.276] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:43.997] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:44.001] [INFO] info - environment dev
+[2022-01-14T13:45:44.028] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:47.395] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:47.397] [INFO] info - environment dev
+[2022-01-14T13:45:47.422] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:51.817] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:51.820] [INFO] info - environment dev
+[2022-01-14T13:45:51.835] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:55.769] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:55.772] [INFO] info - environment dev
+[2022-01-14T13:45:55.788] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:45:59.437] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:45:59.439] [INFO] info - environment dev
+[2022-01-14T13:45:59.461] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:10.396] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:10.398] [INFO] info - environment dev
+[2022-01-14T13:46:10.419] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:42.888] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:42.895] [INFO] info - environment dev
+[2022-01-14T13:46:42.922] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:45.411] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:45.413] [INFO] info - environment dev
+[2022-01-14T13:46:45.430] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:54.282] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:54.284] [INFO] info - environment dev
+[2022-01-14T13:46:54.303] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:57.455] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:57.458] [INFO] info - environment dev
+[2022-01-14T13:46:57.472] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:46:59.143] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:46:59.146] [INFO] info - environment dev
+[2022-01-14T13:46:59.161] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:17.739] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:17.742] [INFO] info - environment dev
+[2022-01-14T13:47:17.768] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:21.210] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:21.215] [INFO] info - environment dev
+[2022-01-14T13:47:21.258] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:22.755] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:22.758] [INFO] info - environment dev
+[2022-01-14T13:47:22.775] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:31.960] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:31.963] [INFO] info - environment dev
+[2022-01-14T13:47:31.981] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:37.148] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:37.150] [INFO] info - environment dev
+[2022-01-14T13:47:37.168] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:51.390] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:51.393] [INFO] info - environment dev
+[2022-01-14T13:47:51.415] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:52.990] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:52.992] [INFO] info - environment dev
+[2022-01-14T13:47:53.010] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:47:55.790] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:47:55.792] [INFO] info - environment dev
+[2022-01-14T13:47:55.806] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:00.435] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:00.438] [INFO] info - environment dev
+[2022-01-14T13:48:00.451] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:05.252] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:05.258] [INFO] info - environment dev
+[2022-01-14T13:48:05.279] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:09.850] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:09.853] [INFO] info - environment dev
+[2022-01-14T13:48:09.868] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:16.655] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:16.658] [INFO] info - environment dev
+[2022-01-14T13:48:16.686] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:19.072] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:19.074] [INFO] info - environment dev
+[2022-01-14T13:48:19.097] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:21.608] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:21.611] [INFO] info - environment dev
+[2022-01-14T13:48:21.625] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:24.254] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:24.256] [INFO] info - environment dev
+[2022-01-14T13:48:24.289] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:28.561] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:28.563] [INFO] info - environment dev
+[2022-01-14T13:48:28.582] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:34.107] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:34.110] [INFO] info - environment dev
+[2022-01-14T13:48:34.127] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:39.991] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:39.993] [INFO] info - environment dev
+[2022-01-14T13:48:40.030] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:44.210] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:44.212] [INFO] info - environment dev
+[2022-01-14T13:48:44.226] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:49.564] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:49.566] [INFO] info - environment dev
+[2022-01-14T13:48:49.584] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:52.188] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:52.190] [INFO] info - environment dev
+[2022-01-14T13:48:52.206] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:48:55.657] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:48:55.659] [INFO] info - environment dev
+[2022-01-14T13:48:55.676] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:49:12.911] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:49:12.914] [INFO] info - environment dev
+[2022-01-14T13:49:12.932] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:49:16.484] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:49:16.487] [INFO] info - environment dev
+[2022-01-14T13:49:16.500] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:49:29.947] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:49:29.949] [INFO] info - environment dev
+[2022-01-14T13:49:29.969] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:25.301] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:25.305] [INFO] info - environment dev
+[2022-01-14T13:50:25.325] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:28.800] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:28.802] [INFO] info - environment dev
+[2022-01-14T13:50:28.820] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:31.957] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:31.959] [INFO] info - environment dev
+[2022-01-14T13:50:31.977] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:38.363] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:38.366] [INFO] info - environment dev
+[2022-01-14T13:50:38.389] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:41.077] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:41.081] [INFO] info - environment dev
+[2022-01-14T13:50:41.106] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:50:54.174] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:50:54.177] [INFO] info - environment dev
+[2022-01-14T13:50:54.192] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:53:37.924] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:53:37.927] [INFO] info - environment dev
+[2022-01-14T13:53:37.949] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:53:42.263] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:53:42.266] [INFO] info - environment dev
+[2022-01-14T13:53:42.281] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:53:54.581] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:53:54.587] [INFO] info - environment dev
+[2022-01-14T13:53:54.611] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:27.009] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:27.011] [INFO] info - environment dev
+[2022-01-14T13:55:27.033] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:31.762] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:31.765] [INFO] info - environment dev
+[2022-01-14T13:55:31.797] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:33.837] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:33.840] [INFO] info - environment dev
+[2022-01-14T13:55:33.867] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:36.391] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:36.393] [INFO] info - environment dev
+[2022-01-14T13:55:36.411] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:40.811] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:40.813] [INFO] info - environment dev
+[2022-01-14T13:55:40.828] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:46.693] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:46.696] [INFO] info - environment dev
+[2022-01-14T13:55:46.712] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:52.838] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:52.841] [INFO] info - environment dev
+[2022-01-14T13:55:52.857] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:55:55.007] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:55:55.010] [INFO] info - environment dev
+[2022-01-14T13:55:55.028] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:01.062] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:01.065] [INFO] info - environment dev
+[2022-01-14T13:56:01.081] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:12.772] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:12.774] [INFO] info - environment dev
+[2022-01-14T13:56:12.788] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:14.840] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:14.842] [INFO] info - environment dev
+[2022-01-14T13:56:14.864] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:16.482] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:16.484] [INFO] info - environment dev
+[2022-01-14T13:56:16.512] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:17.904] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:17.906] [INFO] info - environment dev
+[2022-01-14T13:56:17.927] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:27.179] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:27.182] [INFO] info - environment dev
+[2022-01-14T13:56:27.201] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:29.912] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:29.914] [INFO] info - environment dev
+[2022-01-14T13:56:29.932] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:40.271] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:40.275] [INFO] info - environment dev
+[2022-01-14T13:56:40.303] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:42.381] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:42.382] [INFO] info - environment dev
+[2022-01-14T13:56:42.408] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:44.311] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:44.313] [INFO] info - environment dev
+[2022-01-14T13:56:44.329] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:49.181] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:49.183] [INFO] info - environment dev
+[2022-01-14T13:56:49.200] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:56:51.284] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:56:51.286] [INFO] info - environment dev
+[2022-01-14T13:56:51.303] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:00.899] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:00.905] [INFO] info - environment dev
+[2022-01-14T13:57:00.942] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:06.595] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:06.598] [INFO] info - environment dev
+[2022-01-14T13:57:06.612] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:13.728] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:13.730] [INFO] info - environment dev
+[2022-01-14T13:57:13.745] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:21.516] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:21.519] [INFO] info - environment dev
+[2022-01-14T13:57:21.533] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:24.059] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:24.061] [INFO] info - environment dev
+[2022-01-14T13:57:24.079] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:26.404] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:26.406] [INFO] info - environment dev
+[2022-01-14T13:57:26.422] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:35.498] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:35.500] [INFO] info - environment dev
+[2022-01-14T13:57:35.514] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:44.031] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:44.033] [INFO] info - environment dev
+[2022-01-14T13:57:44.052] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:51.746] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:51.748] [INFO] info - environment dev
+[2022-01-14T13:57:51.772] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:57:54.547] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:57:54.549] [INFO] info - environment dev
+[2022-01-14T13:57:54.581] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:58:29.816] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:58:29.819] [INFO] info - environment dev
+[2022-01-14T13:58:29.849] [INFO] info - ***数据库连接成功***
+[2022-01-14T13:58:42.214] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T13:58:42.216] [INFO] info - environment dev
+[2022-01-14T13:58:42.234] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:00:22.543] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:00:22.547] [INFO] info - environment dev
+[2022-01-14T14:00:22.569] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:00:26.886] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:00:26.888] [INFO] info - environment dev
+[2022-01-14T14:00:26.903] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:00:57.982] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:00:57.985] [INFO] info - environment dev
+[2022-01-14T14:00:58.021] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:00:59.422] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:00:59.424] [INFO] info - environment dev
+[2022-01-14T14:00:59.438] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:01:14.449] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:01:14.455] [INFO] info - environment dev
+[2022-01-14T14:01:14.482] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:01:47.291] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:01:47.294] [INFO] info - environment dev
+[2022-01-14T14:01:47.318] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:01:55.942] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:01:55.945] [INFO] info - environment dev
+[2022-01-14T14:01:55.965] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:02:10.664] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:02:10.666] [INFO] info - environment dev
+[2022-01-14T14:02:10.689] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:02:26.389] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:02:26.392] [INFO] info - environment dev
+[2022-01-14T14:02:26.410] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:02:56.668] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:02:56.671] [INFO] info - environment dev
+[2022-01-14T14:02:56.710] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:07:50.042] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:07:50.045] [INFO] info - environment dev
+[2022-01-14T14:07:50.068] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:08:22.282] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:08:22.287] [INFO] info - environment dev
+[2022-01-14T14:08:22.320] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:08:25.012] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:08:25.014] [INFO] info - environment dev
+[2022-01-14T14:08:25.030] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:08:27.091] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:08:27.093] [INFO] info - environment dev
+[2022-01-14T14:08:27.108] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:12.358] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:12.363] [INFO] info - environment dev
+[2022-01-14T14:09:13.632] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:13.634] [INFO] info - environment dev
+[2022-01-14T14:09:13.653] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:23.062] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:23.065] [INFO] info - environment dev
+[2022-01-14T14:09:23.085] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:31.994] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:31.997] [INFO] info - environment dev
+[2022-01-14T14:09:32.018] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:35.434] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:35.438] [INFO] info - environment dev
+[2022-01-14T14:09:35.459] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:36.825] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:36.828] [INFO] info - environment dev
+[2022-01-14T14:09:36.843] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:09:44.971] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:09:44.973] [INFO] info - environment dev
+[2022-01-14T14:09:45.001] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:10:04.725] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:10:04.728] [INFO] info - environment dev
+[2022-01-14T14:10:04.747] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:10:09.502] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:10:09.504] [INFO] info - environment dev
+[2022-01-14T14:10:09.518] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:10:11.401] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:10:11.485] [INFO] info - environment dev
+[2022-01-14T14:10:11.506] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:10:18.516] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:10:18.518] [INFO] info - environment dev
+[2022-01-14T14:10:18.532] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:10:41.535] [INFO] info - MongooseError: Query was already executed: users.countDocuments({})
+    at model.Query._wrappedThunk [as _countDocuments] (F:\code\node-koa\node_modules\mongoose\lib\helpers\query\wrapThunk.js:21:19)
+    at F:\code\node-koa\node_modules\kareem\index.js:375:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2022-01-14T14:11:22.915] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:11:22.920] [INFO] info - environment dev
+[2022-01-14T14:11:22.937] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:11:32.166] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:11:32.168] [INFO] info - environment dev
+[2022-01-14T14:11:32.183] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:01.652] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:01.655] [INFO] info - environment dev
+[2022-01-14T14:12:01.676] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:21.041] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:21.063] [INFO] info - environment dev
+[2022-01-14T14:12:21.136] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:24.311] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:24.313] [INFO] info - environment dev
+[2022-01-14T14:12:24.331] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:28.161] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:28.163] [INFO] info - environment dev
+[2022-01-14T14:12:28.180] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:36.430] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:36.432] [INFO] info - environment dev
+[2022-01-14T14:12:36.454] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:12:41.243] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:12:41.245] [INFO] info - environment dev
+[2022-01-14T14:12:41.261] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:13:11.556] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:13:11.559] [INFO] info - environment dev
+[2022-01-14T14:13:11.575] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:13:14.758] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:13:14.768] [INFO] info - environment dev
+[2022-01-14T14:13:14.802] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:09.647] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:09.649] [INFO] info - environment dev
+[2022-01-14T14:18:09.669] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:14.401] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:14.403] [INFO] info - environment dev
+[2022-01-14T14:18:14.443] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:20.788] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:20.796] [INFO] info - environment dev
+[2022-01-14T14:18:20.825] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:22.544] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:22.546] [INFO] info - environment dev
+[2022-01-14T14:18:22.562] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:25.770] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:25.772] [INFO] info - environment dev
+[2022-01-14T14:18:25.791] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:30.902] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:30.904] [INFO] info - environment dev
+[2022-01-14T14:18:30.923] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:34.942] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:34.954] [INFO] info - environment dev
+[2022-01-14T14:18:34.972] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:39.313] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:39.315] [INFO] info - environment dev
+[2022-01-14T14:18:39.369] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:46.749] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:46.752] [INFO] info - environment dev
+[2022-01-14T14:18:46.769] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:52.232] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:52.234] [INFO] info - environment dev
+[2022-01-14T14:18:52.253] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:18:56.219] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:18:56.222] [INFO] info - environment dev
+[2022-01-14T14:18:56.241] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:19:35.715] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:19:35.717] [INFO] info - environment dev
+[2022-01-14T14:19:35.751] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:19:56.579] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:19:56.581] [INFO] info - environment dev
+[2022-01-14T14:19:56.599] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:01.818] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:01.820] [INFO] info - environment dev
+[2022-01-14T14:20:01.840] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:20.052] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:20.055] [INFO] info - environment dev
+[2022-01-14T14:20:20.078] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:22.676] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:22.678] [INFO] info - environment dev
+[2022-01-14T14:20:22.697] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:27.103] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:27.106] [INFO] info - environment dev
+[2022-01-14T14:20:27.122] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:29.792] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:29.795] [INFO] info - environment dev
+[2022-01-14T14:20:29.812] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:31.654] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:31.656] [INFO] info - environment dev
+[2022-01-14T14:20:31.673] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:46.836] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:46.839] [INFO] info - environment dev
+[2022-01-14T14:20:46.863] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:49.745] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:49.747] [INFO] info - environment dev
+[2022-01-14T14:20:49.766] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:54.396] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:54.398] [INFO] info - environment dev
+[2022-01-14T14:20:54.417] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:20:56.997] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:20:56.999] [INFO] info - environment dev
+[2022-01-14T14:20:57.016] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:21:07.071] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:21:07.074] [INFO] info - environment dev
+[2022-01-14T14:21:07.105] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:23:16.614] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:23:16.617] [INFO] info - environment dev
+[2022-01-14T14:23:16.638] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:24:21.714] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:24:21.716] [INFO] info - environment dev
+[2022-01-14T14:24:21.752] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:24:39.699] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:24:39.702] [INFO] info - environment dev
+[2022-01-14T14:24:39.729] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:24:47.690] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:24:47.693] [INFO] info - environment dev
+[2022-01-14T14:24:47.731] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:24:57.994] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:24:57.997] [INFO] info - environment dev
+[2022-01-14T14:24:58.049] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:25:00.927] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:25:00.929] [INFO] info - environment dev
+[2022-01-14T14:25:00.957] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:25:03.825] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:25:03.828] [INFO] info - environment dev
+[2022-01-14T14:25:03.846] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:27:02.536] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:27:02.538] [INFO] info - environment dev
+[2022-01-14T14:27:02.563] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:27:13.089] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:27:13.092] [INFO] info - environment dev
+[2022-01-14T14:27:13.109] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:27:16.128] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:27:16.140] [INFO] info - environment dev
+[2022-01-14T14:27:16.163] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:27:18.786] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:27:18.791] [INFO] info - environment dev
+[2022-01-14T14:27:18.812] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:35:07.864] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:35:07.866] [INFO] info - environment dev
+[2022-01-14T14:35:07.889] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:35:28.559] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:35:28.566] [INFO] info - environment dev
+[2022-01-14T14:35:28.581] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:35:38.350] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:35:38.359] [INFO] info - environment dev
+[2022-01-14T14:35:38.395] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:35:57.176] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:35:57.178] [INFO] info - environment dev
+[2022-01-14T14:35:57.197] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:18.034] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:18.037] [INFO] info - environment dev
+[2022-01-14T14:36:18.065] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:24.042] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:24.046] [INFO] info - environment dev
+[2022-01-14T14:36:24.090] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:34.588] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:34.592] [INFO] info - environment dev
+[2022-01-14T14:36:34.636] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:39.147] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:39.149] [INFO] info - environment dev
+[2022-01-14T14:36:39.168] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:41.503] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:41.505] [INFO] info - environment dev
+[2022-01-14T14:36:41.544] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:49.228] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:49.231] [INFO] info - environment dev
+[2022-01-14T14:36:49.249] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:36:57.876] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:36:57.899] [INFO] info - environment dev
+[2022-01-14T14:36:57.953] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:05.237] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:05.241] [INFO] info - environment dev
+[2022-01-14T14:37:05.262] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:07.595] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:07.603] [INFO] info - environment dev
+[2022-01-14T14:37:07.631] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:09.747] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:09.750] [INFO] info - environment dev
+[2022-01-14T14:37:09.791] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:18.290] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:18.293] [INFO] info - environment dev
+[2022-01-14T14:37:18.324] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:31.738] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:31.742] [INFO] info - environment dev
+[2022-01-14T14:37:31.760] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:39.064] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:39.066] [INFO] info - environment dev
+[2022-01-14T14:37:39.086] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:42.311] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:42.316] [INFO] info - environment dev
+[2022-01-14T14:37:42.343] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:51.303] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:51.306] [INFO] info - environment dev
+[2022-01-14T14:37:51.325] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:54.903] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:54.906] [INFO] info - environment dev
+[2022-01-14T14:37:54.929] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:37:58.887] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:37:58.891] [INFO] info - environment dev
+[2022-01-14T14:37:58.922] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:39:32.939] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:39:32.944] [INFO] info - environment dev
+[2022-01-14T14:39:32.973] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:04.866] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:04.871] [INFO] info - environment dev
+[2022-01-14T14:42:04.907] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:10.768] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:10.771] [INFO] info - environment dev
+[2022-01-14T14:42:10.801] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:17.861] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:17.864] [INFO] info - environment dev
+[2022-01-14T14:42:17.896] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:22.833] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:22.838] [INFO] info - environment dev
+[2022-01-14T14:42:22.864] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:27.929] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:27.931] [INFO] info - environment dev
+[2022-01-14T14:42:27.955] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:42:47.312] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:42:47.314] [INFO] info - environment dev
+[2022-01-14T14:42:47.338] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:43:48.855] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:43:48.858] [INFO] info - environment dev
+[2022-01-14T14:43:48.888] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:43:59.993] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:44:00.007] [INFO] info - environment dev
+[2022-01-14T14:44:00.107] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:44:05.292] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:44:05.295] [INFO] info - environment dev
+[2022-01-14T14:44:05.327] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:45:17.688] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:45:17.691] [INFO] info - environment dev
+[2022-01-14T14:45:17.711] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:45:54.160] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:45:54.163] [INFO] info - environment dev
+[2022-01-14T14:45:54.190] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:46:06.208] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:46:06.212] [INFO] info - environment dev
+[2022-01-14T14:46:06.258] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:46:24.216] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:46:24.223] [INFO] info - environment dev
+[2022-01-14T14:46:24.267] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:46:44.519] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:46:44.521] [INFO] info - environment dev
+[2022-01-14T14:46:44.544] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:46:49.477] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:46:49.479] [INFO] info - environment dev
+[2022-01-14T14:46:49.511] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:47:17.259] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:47:17.263] [INFO] info - environment dev
+[2022-01-14T14:47:17.290] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:47:32.114] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:47:32.120] [INFO] info - environment dev
+[2022-01-14T14:47:32.182] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:57:03.282] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:57:03.284] [INFO] info - environment dev
+[2022-01-14T14:57:03.310] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:57:22.066] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:57:22.070] [INFO] info - environment dev
+[2022-01-14T14:57:22.092] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:57:32.992] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:57:32.994] [INFO] info - environment dev
+[2022-01-14T14:57:33.019] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:57:53.501] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:57:53.523] [INFO] info - environment dev
+[2022-01-14T14:57:53.581] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:57:55.855] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:57:55.859] [INFO] info - environment dev
+[2022-01-14T14:57:55.879] [INFO] info - ***数据库连接成功***
+[2022-01-14T14:58:20.471] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T14:58:20.474] [INFO] info - environment dev
+[2022-01-14T14:58:20.497] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:01.254] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:01.256] [INFO] info - environment dev
+[2022-01-14T15:02:01.273] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:03.775] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:03.777] [INFO] info - environment dev
+[2022-01-14T15:02:03.799] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:12.933] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:12.936] [INFO] info - environment dev
+[2022-01-14T15:02:12.956] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:18.234] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:18.238] [INFO] info - environment dev
+[2022-01-14T15:02:18.256] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:39.722] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:39.724] [INFO] info - environment dev
+[2022-01-14T15:02:39.747] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:43.764] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:43.773] [INFO] info - environment dev
+[2022-01-14T15:02:43.816] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:47.079] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:47.082] [INFO] info - environment dev
+[2022-01-14T15:02:47.123] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:51.598] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:51.602] [INFO] info - environment dev
+[2022-01-14T15:02:51.621] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:53.964] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:53.967] [INFO] info - environment dev
+[2022-01-14T15:02:53.994] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:02:56.940] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:02:56.943] [INFO] info - environment dev
+[2022-01-14T15:02:56.980] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:03:05.810] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:03:05.813] [INFO] info - environment dev
+[2022-01-14T15:03:05.842] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:03:11.053] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:03:11.060] [INFO] info - environment dev
+[2022-01-14T15:03:11.086] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:03:13.150] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:03:13.153] [INFO] info - environment dev
+[2022-01-14T15:03:13.190] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:03:30.145] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:03:30.153] [INFO] info - environment dev
+[2022-01-14T15:03:30.189] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:03:39.318] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:03:39.322] [INFO] info - environment dev
+[2022-01-14T15:03:39.346] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:10.305] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:10.307] [INFO] info - environment dev
+[2022-01-14T15:04:10.338] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:13.171] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:13.173] [INFO] info - environment dev
+[2022-01-14T15:04:13.199] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:21.181] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:21.184] [INFO] info - environment dev
+[2022-01-14T15:04:21.230] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:25.773] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:25.775] [INFO] info - environment dev
+[2022-01-14T15:04:25.798] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:28.305] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:28.307] [INFO] info - environment dev
+[2022-01-14T15:04:28.328] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:33.913] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:33.915] [INFO] info - environment dev
+[2022-01-14T15:04:33.935] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:37.553] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:37.556] [INFO] info - environment dev
+[2022-01-14T15:04:37.585] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:41.104] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:41.107] [INFO] info - environment dev
+[2022-01-14T15:04:41.129] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:46.114] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:46.116] [INFO] info - environment dev
+[2022-01-14T15:04:46.139] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:48.472] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:48.474] [INFO] info - environment dev
+[2022-01-14T15:04:48.502] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:04:51.208] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:04:51.211] [INFO] info - environment dev
+[2022-01-14T15:04:51.244] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:05:01.614] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:05:01.617] [INFO] info - environment dev
+[2022-01-14T15:05:01.634] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:05:08.901] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:05:08.904] [INFO] info - environment dev
+[2022-01-14T15:05:08.921] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:07:43.548] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:07:43.553] [INFO] info - environment dev
+[2022-01-14T15:07:43.574] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:07:52.948] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:07:52.954] [INFO] info - environment dev
+[2022-01-14T15:07:52.975] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:08:10.737] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:08:10.740] [INFO] info - environment dev
+[2022-01-14T15:08:10.777] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:08:25.321] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:08:25.324] [INFO] info - environment dev
+[2022-01-14T15:08:25.370] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:09:33.989] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:09:33.991] [INFO] info - environment dev
+[2022-01-14T15:09:34.012] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:09:49.044] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:09:49.046] [INFO] info - environment dev
+[2022-01-14T15:09:49.089] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:09:58.333] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:09:58.345] [INFO] info - environment dev
+[2022-01-14T15:09:58.374] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:01.097] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:01.099] [INFO] info - environment dev
+[2022-01-14T15:10:01.134] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:05.741] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:05.743] [INFO] info - environment dev
+[2022-01-14T15:10:05.766] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:32.156] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:32.158] [INFO] info - environment dev
+[2022-01-14T15:10:32.180] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:43.734] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:43.738] [INFO] info - environment dev
+[2022-01-14T15:10:43.767] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:47.241] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:47.245] [INFO] info - environment dev
+[2022-01-14T15:10:47.264] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:10:54.008] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:10:54.021] [INFO] info - environment dev
+[2022-01-14T15:10:54.077] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:11:02.654] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:11:02.657] [INFO] info - environment dev
+[2022-01-14T15:11:02.675] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:11:08.470] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:11:08.472] [INFO] info - environment dev
+[2022-01-14T15:11:08.491] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:11:13.932] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:11:13.939] [INFO] info - environment dev
+[2022-01-14T15:11:13.957] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:11:16.176] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:11:16.178] [INFO] info - environment dev
+[2022-01-14T15:11:16.203] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:11:19.404] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:11:19.407] [INFO] info - environment dev
+[2022-01-14T15:11:19.447] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:12:28.714] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:12:28.719] [INFO] info - environment dev
+[2022-01-14T15:12:28.740] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:12:30.637] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:12:30.641] [INFO] info - environment dev
+[2022-01-14T15:12:30.663] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:15:47.629] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:15:47.631] [INFO] info - environment dev
+[2022-01-14T15:15:47.656] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:16:30.629] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:16:30.631] [INFO] info - environment dev
+[2022-01-14T15:16:30.659] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:16:35.962] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:16:35.968] [INFO] info - environment dev
+[2022-01-14T15:16:36.010] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:16:43.158] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:16:43.165] [INFO] info - environment dev
+[2022-01-14T15:16:43.195] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:16:44.926] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:16:44.928] [INFO] info - environment dev
+[2022-01-14T15:16:44.945] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:18.663] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:18.670] [INFO] info - environment dev
+[2022-01-14T15:17:18.692] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:29.719] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:29.724] [INFO] info - environment dev
+[2022-01-14T15:17:29.753] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:33.342] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:33.344] [INFO] info - environment dev
+[2022-01-14T15:17:33.371] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:35.988] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:35.990] [INFO] info - environment dev
+[2022-01-14T15:17:36.023] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:38.664] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:38.667] [INFO] info - environment dev
+[2022-01-14T15:17:38.702] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:17:48.976] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:17:48.993] [INFO] info - environment dev
+[2022-01-14T15:17:49.028] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:18:29.558] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:18:29.560] [INFO] info - environment dev
+[2022-01-14T15:18:29.579] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:18:38.591] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:18:38.597] [INFO] info - environment dev
+[2022-01-14T15:18:38.617] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:18:44.534] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:18:44.539] [INFO] info - environment dev
+[2022-01-14T15:18:44.562] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:18:48.174] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:18:48.178] [INFO] info - environment dev
+[2022-01-14T15:18:48.208] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:18:53.225] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:18:53.228] [INFO] info - environment dev
+[2022-01-14T15:18:53.248] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:19:07.366] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:19:07.369] [INFO] info - environment dev
+[2022-01-14T15:19:07.409] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:19:10.414] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:19:10.416] [INFO] info - environment dev
+[2022-01-14T15:19:10.436] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:19:53.335] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:19:53.337] [INFO] info - environment dev
+[2022-01-14T15:19:53.358] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:07.116] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:07.119] [INFO] info - environment dev
+[2022-01-14T15:20:07.136] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:22.242] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:22.245] [INFO] info - environment dev
+[2022-01-14T15:20:22.272] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:24.760] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:24.763] [INFO] info - environment dev
+[2022-01-14T15:20:24.786] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:42.931] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:42.948] [INFO] info - environment dev
+[2022-01-14T15:20:43.020] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:47.136] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:47.138] [INFO] info - environment dev
+[2022-01-14T15:20:47.160] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:20:56.195] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:20:56.197] [INFO] info - environment dev
+[2022-01-14T15:20:56.213] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:21:08.940] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:21:08.943] [INFO] info - environment dev
+[2022-01-14T15:21:08.979] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:21:12.022] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:21:12.025] [INFO] info - environment dev
+[2022-01-14T15:21:12.048] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:21:31.356] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:21:31.365] [INFO] info - environment dev
+[2022-01-14T15:21:31.405] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:22:03.394] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:22:03.400] [INFO] info - environment dev
+[2022-01-14T15:22:03.424] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:22:17.037] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:22:17.039] [INFO] info - environment dev
+[2022-01-14T15:22:17.057] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:22:39.735] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:22:39.737] [INFO] info - environment dev
+[2022-01-14T15:22:39.762] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:22:48.591] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:22:48.594] [INFO] info - environment dev
+[2022-01-14T15:22:48.614] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:06.014] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:06.017] [INFO] info - environment dev
+[2022-01-14T15:23:06.037] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:12.006] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:12.010] [INFO] info - environment dev
+[2022-01-14T15:23:12.046] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:16.514] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:16.518] [INFO] info - environment dev
+[2022-01-14T15:23:16.537] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:27.121] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:27.124] [INFO] info - environment dev
+[2022-01-14T15:23:27.143] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:35.852] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:35.854] [INFO] info - environment dev
+[2022-01-14T15:23:35.872] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:23:39.008] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:23:39.011] [INFO] info - environment dev
+[2022-01-14T15:23:39.030] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:00.242] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:00.245] [INFO] info - environment dev
+[2022-01-14T15:24:00.263] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:03.525] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:03.527] [INFO] info - environment dev
+[2022-01-14T15:24:03.548] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:05.738] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:05.742] [INFO] info - environment dev
+[2022-01-14T15:24:05.769] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:20.648] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:20.652] [INFO] info - environment dev
+[2022-01-14T15:24:20.674] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:25.245] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:25.249] [INFO] info - environment dev
+[2022-01-14T15:24:25.270] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:28.142] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:28.145] [INFO] info - environment dev
+[2022-01-14T15:24:36.192] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:36.194] [INFO] info - environment dev
+[2022-01-14T15:24:36.215] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:46.387] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:46.402] [INFO] info - environment dev
+[2022-01-14T15:24:46.436] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:48.462] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:48.466] [INFO] info - environment dev
+[2022-01-14T15:24:48.482] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:24:53.649] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:24:53.654] [INFO] info - environment dev
+[2022-01-14T15:24:53.670] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:09.731] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:25:09.735] [INFO] info - environment dev
+[2022-01-14T15:25:09.757] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:16.475] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:25:16.477] [INFO] info - environment dev
+[2022-01-14T15:25:16.527] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:18.137] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:25:18.140] [INFO] info - environment dev
+[2022-01-14T15:25:18.158] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:32.600] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:25:32.603] [INFO] info - environment dev
+[2022-01-14T15:25:32.623] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:36.930] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:25:36.934] [INFO] info - environment dev
+[2022-01-14T15:25:36.953] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:25:40.536] [INFO] info - ReferenceError: searchMode is not defined
+    at userList (F:\code\node-koa\src\controller\users.controller.js:90:69)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:22:11)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+[2022-01-14T15:27:32.570] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:27:32.573] [INFO] info - environment dev
+[2022-01-14T15:27:32.606] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:27:45.125] [INFO] info - ReferenceError: searchMode is not defined
+    at userList (F:\code\node-koa\src\controller\users.controller.js:90:80)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:22:11)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+[2022-01-14T15:28:01.462] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:28:01.465] [INFO] info - environment dev
+[2022-01-14T15:28:01.493] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:28:22.122] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:28:22.124] [INFO] info - environment dev
+[2022-01-14T15:28:22.153] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:29:14.612] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:29:14.617] [INFO] info - environment dev
+[2022-01-14T15:29:14.642] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:31:06.305] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:31:06.308] [INFO] info - environment dev
+[2022-01-14T15:31:06.335] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:31:09.798] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:31:09.801] [INFO] info - environment dev
+[2022-01-14T15:31:09.821] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:34:11.281] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:34:11.286] [INFO] info - environment dev
+[2022-01-14T15:34:11.310] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:34:44.648] [INFO] info - CastError: Cast to Number failed for value "/100/i" (type RegExp) at path "userId" for model "users"
+    at model.Query.exec (F:\code\node-koa\node_modules\mongoose\lib\query.js:4639:21)
+    at model.Query.Query.then (F:\code\node-koa\node_modules\mongoose\lib\query.js:4738:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-01-14T15:36:08.453] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:36:08.456] [INFO] info - environment dev
+[2022-01-14T15:36:08.491] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:36:32.427] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:36:32.430] [INFO] info - environment dev
+[2022-01-14T15:36:32.454] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:42:03.055] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:42:03.058] [INFO] info - environment dev
+[2022-01-14T15:42:03.108] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:44:39.466] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:44:39.469] [INFO] info - environment dev
+[2022-01-14T15:44:39.491] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:44:44.706] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:44:44.710] [INFO] info - environment dev
+[2022-01-14T15:44:44.742] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:44:47.770] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:44:47.772] [INFO] info - environment dev
+[2022-01-14T15:44:47.789] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:44:51.480] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:44:51.489] [INFO] info - environment dev
+[2022-01-14T15:44:51.528] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:44:54.984] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:44:54.987] [INFO] info - environment dev
+[2022-01-14T15:44:55.003] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:45:05.885] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:45:05.887] [INFO] info - environment dev
+[2022-01-14T15:45:05.906] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:45:20.874] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T15:45:20.876] [INFO] info - environment dev
+[2022-01-14T15:45:20.902] [INFO] info - ***数据库连接成功***
+[2022-01-14T15:48:29.738] [INFO] info - CastError: Cast to Number failed for value "/1/i" (type RegExp) at path "userId" for model "users"
+    at model.Query.exec (F:\code\node-koa\node_modules\mongoose\lib\query.js:4639:21)
+    at model.Query.Query.then (F:\code\node-koa\node_modules\mongoose\lib\query.js:4738:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-01-14T15:52:52.013] [INFO] info - CastError: Cast to Number failed for value "/a/i" (type RegExp) at path "userId" for model "users"
+    at model.Query.exec (F:\code\node-koa\node_modules\mongoose\lib\query.js:4639:21)
+    at model.Query.Query.then (F:\code\node-koa\node_modules\mongoose\lib\query.js:4738:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-01-14T16:00:42.643] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:00:42.645] [INFO] info - environment dev
+[2022-01-14T16:00:42.669] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:00:49.920] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:00:49.925] [INFO] info - environment dev
+[2022-01-14T16:00:49.947] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:00:54.090] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:00:54.092] [INFO] info - environment dev
+[2022-01-14T16:00:54.118] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:12.988] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:01:12.994] [INFO] info - environment dev
+[2022-01-14T16:01:13.039] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:24.791] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:01:24.798] [INFO] info - environment dev
+[2022-01-14T16:01:24.829] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:29.942] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:01:29.949] [INFO] info - environment dev
+[2022-01-14T16:01:30.005] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:33.559] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:01:33.561] [INFO] info - environment dev
+[2022-01-14T16:01:33.595] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:36.381] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:01:36.384] [INFO] info - environment dev
+[2022-01-14T16:01:36.425] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:01:41.781] [INFO] info - MongooseError: Query was already executed: users.find({ userId: /a/i, state: 3 })
+    at model.Query._wrappedThunk [as _find] (F:\code\node-koa\node_modules\mongoose\lib\helpers\query\wrapThunk.js:21:19)
+    at F:\code\node-koa\node_modules\kareem\index.js:375:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2022-01-14T16:03:26.624] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:03:26.628] [INFO] info - environment dev
+[2022-01-14T16:03:26.656] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:03:30.854] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:03:30.857] [INFO] info - environment dev
+[2022-01-14T16:03:30.875] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:05:36.321] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:05:36.324] [INFO] info - environment dev
+[2022-01-14T16:05:36.367] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:05:47.575] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:05:47.579] [INFO] info - environment dev
+[2022-01-14T16:05:47.604] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:05:51.974] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:05:51.977] [INFO] info - environment dev
+[2022-01-14T16:05:52.024] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:06:06.340] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:06:06.343] [INFO] info - environment dev
+[2022-01-14T16:06:06.374] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:06:09.007] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:06:09.011] [INFO] info - environment dev
+[2022-01-14T16:06:09.060] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:06:10.894] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:06:10.904] [INFO] info - environment dev
+[2022-01-14T16:06:10.927] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:18:12.001] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:18:12.004] [INFO] info - environment dev
+[2022-01-14T16:18:12.039] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:18:17.725] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:18:17.735] [INFO] info - environment dev
+[2022-01-14T16:18:17.766] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:22:58.953] [INFO] info - MongooseError: Query was already executed: users.find({ userId: /a/i, state: 3 })
+    at model.Query._wrappedThunk [as _find] (F:\code\node-koa\node_modules\mongoose\lib\helpers\query\wrapThunk.js:21:19)
+    at F:\code\node-koa\node_modules\kareem\index.js:375:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2022-01-14T16:23:14.486] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:23:14.489] [INFO] info - environment dev
+[2022-01-14T16:23:14.507] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:23:23.249] [INFO] info - CastError: Cast to Number failed for value "/a/i" (type RegExp) at path "userId" for model "users"
+    at model.Query.exec (F:\code\node-koa\node_modules\mongoose\lib\query.js:4639:21)
+    at model.Query.Query.then (F:\code\node-koa\node_modules\mongoose\lib\query.js:4738:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-01-14T16:23:33.949] [INFO] info - CastError: Cast to Number failed for value "/1/i" (type RegExp) at path "userId" for model "users"
+    at model.Query.exec (F:\code\node-koa\node_modules\mongoose\lib\query.js:4639:21)
+    at model.Query.Query.then (F:\code\node-koa\node_modules\mongoose\lib\query.js:4738:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-01-14T16:26:25.600] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:26:25.602] [INFO] info - environment dev
+[2022-01-14T16:26:25.623] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:26:42.773] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:26:42.776] [INFO] info - environment dev
+[2022-01-14T16:26:42.804] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:27:07.515] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:27:07.520] [INFO] info - environment dev
+[2022-01-14T16:27:07.556] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:27:10.978] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:27:10.980] [INFO] info - environment dev
+[2022-01-14T16:27:11.013] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:27:13.870] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:27:13.872] [INFO] info - environment dev
+[2022-01-14T16:27:13.887] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:27:24.347] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:27:24.352] [INFO] info - environment dev
+[2022-01-14T16:27:24.396] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:28:10.156] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:28:10.157] [INFO] info - environment dev
+[2022-01-14T16:28:10.197] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:28:13.586] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:28:13.588] [INFO] info - environment dev
+[2022-01-14T16:28:13.605] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:28:27.472] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:28:27.473] [INFO] info - environment dev
+[2022-01-14T16:28:27.512] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:28:45.326] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:28:45.327] [INFO] info - environment dev
+[2022-01-14T16:28:45.347] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:28:56.989] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:28:56.991] [INFO] info - environment dev
+[2022-01-14T16:28:57.016] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:29:01.311] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:29:01.315] [INFO] info - environment dev
+[2022-01-14T16:29:01.349] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:29:11.471] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:29:11.473] [INFO] info - environment dev
+[2022-01-14T16:29:11.507] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:29:22.128] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:29:22.130] [INFO] info - environment dev
+[2022-01-14T16:29:22.153] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:33:30.929] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:33:30.931] [INFO] info - environment dev
+[2022-01-14T16:33:30.969] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:33:40.071] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:33:40.076] [INFO] info - environment dev
+[2022-01-14T16:33:40.106] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:33:51.332] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:33:51.337] [INFO] info - environment dev
+[2022-01-14T16:33:51.374] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:36:31.621] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:36:31.629] [INFO] info - environment dev
+[2022-01-14T16:36:31.670] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:36:39.218] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:36:39.303] [INFO] info - environment dev
+[2022-01-14T16:36:39.328] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:36:44.326] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:36:44.328] [INFO] info - environment dev
+[2022-01-14T16:36:44.361] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:36:46.561] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:36:46.565] [INFO] info - environment dev
+[2022-01-14T16:36:46.591] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:37:01.201] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:37:01.204] [INFO] info - environment dev
+[2022-01-14T16:37:01.242] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:37:06.707] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:37:06.709] [INFO] info - environment dev
+[2022-01-14T16:37:06.752] [INFO] info - ***数据库连接成功***
+[2022-01-14T16:57:06.092] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T16:57:06.103] [INFO] info - environment dev
+[2022-01-14T16:57:06.134] [INFO] info - ***数据库连接成功***
+[2022-01-14T17:51:18.276] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T17:51:18.278] [INFO] info - environment dev
+[2022-01-14T17:51:18.308] [INFO] info - ***数据库连接成功***
+[2022-01-14T17:57:35.373] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T17:57:35.376] [INFO] info - environment dev
+[2022-01-14T17:57:35.440] [INFO] info - ***数据库连接成功***
+[2022-01-14T18:01:17.141] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T18:01:17.143] [INFO] info - environment dev
+[2022-01-14T18:01:17.167] [INFO] info - ***数据库连接成功***
+[2022-01-14T18:01:22.547] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T18:01:22.550] [INFO] info - environment dev
+[2022-01-14T18:01:22.594] [INFO] info - ***数据库连接成功***
+[2022-01-14T18:04:17.497] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-14T18:04:17.500] [INFO] info - environment dev
+[2022-01-14T18:04:17.540] [INFO] info - ***数据库连接成功***

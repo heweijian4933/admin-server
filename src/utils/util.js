@@ -1,3 +1,4 @@
+'use strict'
 /**
  * 通用工具函数
  */
@@ -20,7 +21,7 @@ module.exports = {
         return
     },
 
-    formateDate(date, rule) {
+    formatDate(date, rule) {
         let fmt = rule || 'yyyy-MM-dd hh:mm:ss'
         if (/(y+)/.test(fmt)) {
             fmt = fmt.replace(RegExp.$1, date.getFullYear())
@@ -44,10 +45,22 @@ module.exports = {
 
     /**
      * 分页结构封装
-     * @param {number} pageNum 
-     * @param {number} pageSize 
+     * @param {Object} params 
+     * @param {Number} pageNum - 分页页数
+     * @param {Number} pageSize - 分页数据条数
      */
     pager({ pageNum = 1, pageSize = 10 }) {
+        // 入参校验和处理
+        try {
+            pageNum = pageNum * 1
+            if (isNaN(pageNum)) pageNum = 1
+
+            pageSize = pageSize * 1
+            if (isNaN(pageSize)) pageSize = 10
+        } catch (error) {
+            log4js.info(error.stack)
+        }
+
         const skipIndex = (pageNum - 1) * pageSize
         return {
             page: {
