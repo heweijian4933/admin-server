@@ -1,4 +1,5 @@
 const User = require('../db/users.schema')
+const Counter = require('../db/Counter.schema')
 const log4js = require('../utils/log4j')
 const util = require('../utils/util')
 
@@ -31,12 +32,40 @@ module.exports = {
     /**
      * 添加用户
      * @param {Object} params - 查找的字段根据
-     * @param {String} params.userName - 用户姓名
-     * @param {String} params.userPwd - 用户密码
+     * @param {String} params.userId - 用户ID ,字符串数字, 必须
+     * @param {String} params.userName - 用户姓名 必须
+     * @param {String} params.userPwd - 用户密码 必须
+     * @param {String} params.userEmail - 用户邮箱 必须
+     * @param {Array} params.deptId - 用户所在部门 ID 必须
      */
-    async createUser({ userName, userPwd }) {
-        const res = await User.create({ userName, userPwd })
-        return res
+    async addUser(params) {
+        let {
+            userId, //userId 从 couter 数据库当中获取
+            userName, userEmail, //一旦创建以后则固定,一般不能修改;
+            userPwd, //Todo: 增加密码修改功能
+            mobile, job, state, role = 1, roleList, deptId, sex, remark
+        } = params
+        try {
+            const { sequence_value } = await Counter.findOneAndUpdate({ '_id': "userId" }, { $inc: { sequence_value: 1 } })// 从另外维护的表查询 userId 最新值并让其自增 1
+            if (sequence_value) userId = sequence_value + '' //将数字转换为 String(userId格式为 String)
+            let res = await User.create({
+                userId,
+                ...params,
+                createTime: new Date(),
+                lastLoginTime: null,
+            })
+            if (res) {
+                res = res.toObject()
+                let projectionList = ["userPwd", "_id", "__v"] // [禁止]不必要的字段暴露前端
+                projectionList.forEach(key => {
+                    delete res[key]
+                })
+                return res
+            }
+        } catch (err) {
+            log4js.error(err.stack)
+        }
+        return false
     },
 
     /**
@@ -101,7 +130,20 @@ module.exports = {
         // [警告]:如果res带用户密码,在controller层需要做处理
         return false
 
-    }
+    },
+
+    /**
+     * 更新(单个或者多个)用户
+     * @param {Array} ids - 用户 id 列表
+     * @param {Object} params  - 要更新的字段信息
+     */
+    async updateUsers(ids, params) {
+        let res = await User.updateMany({ userId: { $in: ids } }, params)
+        console.log("res=>", res);
+        if (res && res.acknowledged) return res
+        return false
+    },
+
 
 
 

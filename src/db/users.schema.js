@@ -33,7 +33,7 @@ const usersSchema = mongoose.Schema({
         type: Date,
         default: Date.now()
     },//更新时间
-    remark: String,
+    "remark": String,
 })
 
 module.exports = mongoose.model("users", usersSchema, "users")

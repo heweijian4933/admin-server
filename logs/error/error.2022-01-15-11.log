@@ -1,0 +1,15 @@
+[2022-01-15T11:34:52.237] [ERROR] error - 
+    {"userIds":["1000000"]}
+    {"method":"POST","url":"/api/users/delete","header":{"accept-language":"zh-CN,zh;q=0.9,en;q=0.8","accept-encoding":"gzip, deflate, br","referer":"http://localhost:8080/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","origin":"http://localhost:8080","sec-ch-ua-platform":"\"macOS\"","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36","sec-ch-ua-mobile":"?0","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJfaWQiOiI2MWUyMzgzMjY1ZmRhM2ZlMzA4YTE3YjkiLCJ1c2VySWQiOiIxMDAwMDAwIiwidXNlck5hbWUiOiJhZG1pbiIsInVzZXJFbWFpbCI6ImFkbWluQG1hbmFnZXIuY29tIiwibW9iaWxlIjoiMTM3ODg4ODg4MzUiLCJzZXgiOjAsImRlcHRJZCI6W10sImpvYiI6IuWJjeerr-Wwj-WSr-WSryIsInN0YXRlIjoxLCJyb2xlIjowLCJyb2xlTGlzdCI6W10sImNyZWF0ZVRpbWUiOiIyMDIyLTAxLTE0VDEzOjAwOjMxLjAwMFoiLCJsYXN0TG9naW5UaW1lIjoiMjAyMi0wMS0xNFQxMzowMDozMS4wMDBaIn0sImlhdCI6MTY0MjIxNTUwMywiZXhwIjoxNjQyMjE5MTAzfQ.5Ql2_BQy2DpCxrrgZpEl_fEo1REu9gAa0xVfAL1tjZM","content-type":"application/json;charset=UTF-8","accept":"application/json, text/plain, */*","sec-ch-ua":"\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\"","cache-control":"no-cache","pragma":"no-cache","content-length":"23","connection":"close","host":"localhost:8080"}}
+    ReferenceError: value is not defined
+    at deleteUsers (/Users/stephen_ho_account/Documents/code/admin-server/src/controller/users.controller.js:112:57)
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at verifyToken (/Users/stephen_ho_account/Documents/code/admin-server/src/middleware/auth.js:22:11)
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/stephen_ho_account/Documents/code/admin-server/node_modules/koa-router/lib/router.js:353:32)
+    

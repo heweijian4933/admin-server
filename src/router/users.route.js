@@ -1,13 +1,13 @@
-const router = require('koa-router')({ prefix: '/users' })
-const { login, userList } = require('../controller/users.controller')
+const { login, userList, createUser, updateUser, deleteUsers } = require('../controller/users.controller')
 const { verifyToken } = require('../middleware/auth')
+
+const router = require('koa-router')({ prefix: '/users' })
 
 router.post('/login', login)
 
-router.get('/register', (ctx, next) => {
-    ctx.body = 'register'
-})
-
 router.get('/list', verifyToken, userList)
+router.post('/create', verifyToken, createUser)
+router.post('/update', verifyToken, updateUser)
+router.post('/delete', verifyToken, deleteUsers)
 
 module.exports = router
