@@ -1,0 +1,30 @@
+[2022-01-17T18:41:47.100] [ERROR] error - 
+    {"menuState":1,"menuType":2,"children":[],"_id":"6030ca8f93f0e159c8390f0c","parentId":["600d4075e218daaf4ec77e52","600d525e602f452aaeeffcd9"],"updateTime":"2022-01-17T09:58:31.331Z","createTime":"2022-01-17T09:54:24.657Z","menuName":"新增-1","menuCode":"user-create"}
+    {"method":"POST","url":"/api/menus/update","header":{"cookie":"username-localhost-8888=\"2|1:0|10:1640856662|23:username-localhost-8888|44:YmJjOTVkM2E2MzdiNDhiZDkzNTE4YTI2OTRkMDIyNjc=|e38cfcf629220ead254f05387b01a61183bcec3c1cc5a09dfbbae990a898e272\"","accept-language":"zh-CN,zh;q=0.9,en;q=0.8","accept-encoding":"gzip, deflate, br","referer":"http://localhost:8080/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","origin":"http://localhost:8080","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36","sec-ch-ua-mobile":"?0","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJfaWQiOiI2MWUxM2E1MTkxMDgwMDAwYWMwMDM0ODkiLCJ1c2VySWQiOiIxMDAwMDAwIiwidXNlck5hbWUiOiJhZG1pbiIsInVzZXJFbWFpbCI6ImFkbWluQG1hbmFnZXIuY29tIiwibW9iaWxlIjoiMTM3ODg4ODg4MzUiLCJzZXgiOjAsImRlcHRJZCI6WyI2MDE2NzA1OWM5MDI3YjdkMmM1MjBhNjEiLCI2MDE2NzI4ZmM2YTQ0MTdmMmQyNzUwNmUiXSwiam9iIjoi5YmN56uv5bCP5ZKv5ZKvIiwic3RhdGUiOjEsInJvbGUiOjAsInJvbGVMaXN0IjpbIjYwMTgwYjY0YjFlYWVkNmM0NWZiZWJkZSIsIjYwMTgwYjY5YjFlYWVkNmM0NWZiZWJkZiJdLCJjcmVhdGVUaW1lIjoiMjAyMi0wMS0xNFQxMzowMDozMS4wMDBaIiwibGFzdExvZ2luVGltZSI6IjIwMjItMDEtMTRUMTM6MDA6MzEuMDAwWiJ9LCJpYXQiOjE2NDI0MTQ0MzAsImV4cCI6MTY0MjQxODAzMH0.6hzSCCzgM1IiAdubUUVrwlc1GGInB5fKOT2dWpRtzMU","content-type":"application/json;charset=UTF-8","accept":"application/json, text/plain, */*","sec-ch-ua":"\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\"","content-length":"269","connection":"close","host":"localhost:8080"}}
+    ReferenceError: error is not defined
+    at updateMenu (F:\code\node-koa\src\controller\menus.controller.js:93:25)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:22:11)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+    
+[2022-01-17T18:44:41.849] [ERROR] error - 
+    {"menuState":1,"menuType":2,"children":[],"_id":"6030ca8f93f0e159c8390f0c","parentId":["600d4075e218daaf4ec77e52","600d525e602f452aaeeffcd9"],"updateTime":"2022-01-17T09:58:31.331Z","createTime":"2022-01-17T09:54:24.657Z","menuName":"新增-1","menuCode":"user-create"}
+    {"method":"POST","url":"/api/menus/update","header":{"cookie":"username-localhost-8888=\"2|1:0|10:1640856662|23:username-localhost-8888|44:YmJjOTVkM2E2MzdiNDhiZDkzNTE4YTI2OTRkMDIyNjc=|e38cfcf629220ead254f05387b01a61183bcec3c1cc5a09dfbbae990a898e272\"","accept-language":"zh-CN,zh;q=0.9,en;q=0.8","accept-encoding":"gzip, deflate, br","referer":"http://localhost:8080/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","origin":"http://localhost:8080","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36","sec-ch-ua-mobile":"?0","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mbyI6eyJfaWQiOiI2MWUxM2E1MTkxMDgwMDAwYWMwMDM0ODkiLCJ1c2VySWQiOiIxMDAwMDAwIiwidXNlck5hbWUiOiJhZG1pbiIsInVzZXJFbWFpbCI6ImFkbWluQG1hbmFnZXIuY29tIiwibW9iaWxlIjoiMTM3ODg4ODg4MzUiLCJzZXgiOjAsImRlcHRJZCI6WyI2MDE2NzA1OWM5MDI3YjdkMmM1MjBhNjEiLCI2MDE2NzI4ZmM2YTQ0MTdmMmQyNzUwNmUiXSwiam9iIjoi5YmN56uv5bCP5ZKv5ZKvIiwic3RhdGUiOjEsInJvbGUiOjAsInJvbGVMaXN0IjpbIjYwMTgwYjY0YjFlYWVkNmM0NWZiZWJkZSIsIjYwMTgwYjY5YjFlYWVkNmM0NWZiZWJkZiJdLCJjcmVhdGVUaW1lIjoiMjAyMi0wMS0xNFQxMzowMDozMS4wMDBaIiwibGFzdExvZ2luVGltZSI6IjIwMjItMDEtMTRUMTM6MDA6MzEuMDAwWiJ9LCJpYXQiOjE2NDI0MTQ0MzAsImV4cCI6MTY0MjQxODAzMH0.6hzSCCzgM1IiAdubUUVrwlc1GGInB5fKOT2dWpRtzMU","content-type":"application/json;charset=UTF-8","accept":"application/json, text/plain, */*","sec-ch-ua":"\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\"","content-length":"269","connection":"close","host":"localhost:8080"}}
+    ReferenceError: userId is not defined
+    at updateMenu (F:\code\node-koa\src\controller\menus.controller.js:89:35)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:22:11)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+    

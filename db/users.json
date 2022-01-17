@@ -1,0 +1,490 @@
+{
+    "RECORDS": [
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003489"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [
+                "60167059c9027b7d2c520a61",
+                "6016728fc6a4417f2d27506e"
+            ],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": "13788888835",
+            "role": 0,
+            "roleList": [
+                "60180b64b1eaed6c45fbebde",
+                "60180b69b1eaed6c45fbebdf"
+            ],
+            "sex": {
+                "$numberInt": "0"
+            },
+            "state": {
+                "$numberInt": "1"
+            },
+            "userEmail": "admin@manager.com",
+            "userId": "1000000",
+            "userName": "admin",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348a"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888836,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": {
+                "$numberInt": "2"
+            },
+            "userEmail": "user1000001@manager.com",
+            "userId": "1000001",
+            "userName": "user1000001",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348b"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "产品经理",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888838,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": {
+                "$numberInt": "2"
+            },
+            "userEmail": "user1000002@manager.com",
+            "userId": "1000002",
+            "userName": "user1000002",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348c"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端高级开发",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888840,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": {
+                "$numberInt": "2"
+            },
+            "userEmail": "user1000003@manager.com",
+            "userId": "1000003",
+            "userName": "user1000003",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348d"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端架构师",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888842,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": {
+                "$numberInt": "2"
+            },
+            "userEmail": "user1000004@manager.com",
+            "userId": "1000004",
+            "userName": "user1000004",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348e"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "测试",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888844,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 2,
+            "userEmail": "user1000005@manager.com",
+            "userId": "1000005",
+            "userName": "user1000005",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00348f"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888846,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 3,
+            "userEmail": "user1000006@manager.com",
+            "userId": "1000006",
+            "userName": "user1000006",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003490"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "产品经理",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888848,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 1,
+            "userEmail": "user1000007@manager.com",
+            "userId": "1000007",
+            "userName": "user1000007",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003491"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端高级开发",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888850,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 2,
+            "userEmail": "user1000008@manager.com",
+            "userId": "1000008",
+            "userName": "user1000008",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003492"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端架构师",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888852,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 3,
+            "userEmail": "user1000009@manager.com",
+            "userId": "1000009",
+            "userName": "user1000009",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003493"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "测试",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888854,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 1,
+            "userEmail": "user1000010@manager.com",
+            "userId": "1000010",
+            "userName": "user1000010",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003494"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888856,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 2,
+            "userEmail": "user1000011@manager.com",
+            "userId": "1000011",
+            "userName": "user1000011",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003495"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "产品经理",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888858,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 3,
+            "userEmail": "user1000012@manager.com",
+            "userId": "1000012",
+            "userName": "user1000012",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003496"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端高级开发",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888860,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 1,
+            "userEmail": "user1000013@manager.com",
+            "userId": "1000013",
+            "userName": "user1000013",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003497"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端架构师",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888862,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 2,
+            "userEmail": "user1000014@manager.com",
+            "userId": "1000014",
+            "userName": "user1000014",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003498"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "测试",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888864,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 3,
+            "userEmail": "user1000015@manager.com",
+            "userId": "1000015",
+            "userName": "user1000015",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac003499"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888866,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 1,
+            "userEmail": "user1000016@manager.com",
+            "userId": "1000016",
+            "userName": "user1000016",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349a"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "产品经理",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888868,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 2,
+            "userEmail": "user1000017@manager.com",
+            "userId": "1000017",
+            "userName": "user1000017",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349b"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端高级开发",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888870,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 3,
+            "userEmail": "user1000018@manager.com",
+            "userId": "1000018",
+            "userName": "user1000018",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349c"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端架构师",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888872,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 1,
+            "userEmail": "user1000019@manager.com",
+            "userId": "1000019",
+            "userName": "user1000019",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349d"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "测试",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888874,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 2,
+            "userEmail": "user1000020@manager.com",
+            "userId": "1000020",
+            "userName": "user1000020",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349e"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端小咯咯",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888876,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 3,
+            "userEmail": "user1000021@manager.com",
+            "userId": "1000021",
+            "userName": "user1000021",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac00349f"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "产品经理",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888878,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 1,
+            "userEmail": "user1000022@manager.com",
+            "userId": "1000022",
+            "userName": "user1000022",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac0034a0"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端高级开发",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888880,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 2,
+            "userEmail": "user1000023@manager.com",
+            "userId": "1000023",
+            "userName": "user1000023",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac0034a1"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "前端架构师",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888882,
+            "role": 1,
+            "roleList": [],
+            "sex": 1,
+            "state": 3,
+            "userEmail": "user1000024@manager.com",
+            "userId": "1000024",
+            "userName": "user1000024",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        },
+        {
+            "_id": {
+                "$oid": "61e13a5191080000ac0034a2"
+            },
+            "createTime": "14/1/2022 13:00:31",
+            "deptId": [],
+            "job": "测试",
+            "lastLoginTime": "14/1/2022 13:00:31",
+            "mobile": 13788888884,
+            "role": 1,
+            "roleList": [],
+            "sex": 0,
+            "state": 1,
+            "userEmail": "user1000025@manager.com",
+            "userId": "1000025",
+            "userName": "user1000025",
+            "userPwd": "$2a$10$g5xFdHTYBhJsMTy.ZIvJkOlD5T5vLlqfGJVqzM6nrGSIgfRRKjDnG"
+        }
+    ]
+}

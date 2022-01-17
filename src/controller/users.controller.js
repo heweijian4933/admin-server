@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const log4js = require('../utils/log4j')
 const { SECRET_KEY } = require('../config/secret.key')
 const { PARAM_ERROR, USER_ACCOUNT_ERROR, BUSINESS_ERROR } = require('../config/err.type')
-const { findUser, findManyUsers, updateUsers, addUser } = require('../service/users.service')
+const { find, findMany, updateMany, add } = require('../service/users.service')
 const util = require('../utils/util')
 class UserController {
     // 关于参数校验, 内部管理系统默认请求是相对比较安全的, 所以参数的校验相对简单一点
@@ -32,7 +32,7 @@ class UserController {
             userPwd: hash,
             mobile, job, state, roleList, deptId, sex, remark
         }
-        let res = await addUser(params)
+        let res = await add(params)
         if (res) {
             return util.success({ data: { affectedDocs: 1, /*userInfo:res*/ } }, ctx)
         }
@@ -49,7 +49,7 @@ class UserController {
             return util.fail(PARAM_ERROR, ctx)
         }
         try {
-            let userInfo = await findUser({ userName }, { userPwd: 1, })
+            let userInfo = await find({ userName }, { userPwd: 1, })
             //详情见findUser, { userName }为关键入参, 用于筛选对应字段
             //{userPwd: 1 },表示返回userPwd字段=>用于以下业务判断
             if (userInfo) {
@@ -87,7 +87,7 @@ class UserController {
         state = state * 1;//将query的字符串数字转换成Number类型
         if (isNaN(state)) {
             //如果state转换后是NaN,说明入参格式不对;字符串数字转换为Number类型以后不会是NaN
-            return util.fail(PARAM_ERROR)
+            return util.fail(PARAM_ERROR, ctx)
         } else if (state) {
             // 如果state 符合| 1：在职 2：离职 3：试用期; [提示]这里其实写法还可以更加严谨一点
             params.state = state
@@ -100,7 +100,7 @@ class UserController {
         const pager = util.pager({ pageNum, pageSize })
 
         try {
-            let res = await findManyUsers(params, pager, undefined, "fuzzy")
+            let res = await findMany(params, pager, undefined, "fuzzy")
             if (res) {
                 const { list, total } = res
                 return util.success({
@@ -124,10 +124,10 @@ class UserController {
         // 参数校验
         const { userIds } = ctx.request.body
         if (!userIds || !Object.prototype.toString.call(userIds).includes('Array') || userIds.length <= 0) {
-            return util.fail(PARAM_ERROR)
+            return util.fail(PARAM_ERROR, ctx)
         }
         try {
-            let res = await updateUsers(userIds, { state: 2 })
+            let res = await updateMany(userIds, { state: 2 })
             if (res) return util.success({ data: { affectedDocs: res.modifiedCount }, msg: `共删除${res.modifiedCount}条` }, ctx)
 
         } catch (err) {
@@ -143,7 +143,7 @@ class UserController {
             userId, userName, userEmail, mobile, job, state, roleList, deptId, sex,
         } = ctx.request.body
         if (!userId || !userName || !userEmail || !deptId) {
-            return util.fail(PARAM_ERROR)
+            return util.fail(PARAM_ERROR, ctx)
         }
 
         const params = {
@@ -151,11 +151,11 @@ class UserController {
             mobile, job, state, roleList, deptId, sex
         }
         try {
-            const res = await updateUsers([userId,], params)
+            const res = await updateMany([userId,], params)
             if (res) return util.success({ data: { affectedDocs: res.modifiedCount }, msg: `共更新${res.modifiedCount}条` }, ctx)
 
         } catch (err) {
-            log4js.info(error.stack)
+            log4js.info(err.stack)
         }
         return util.fail(BUSINESS_ERROR, ctx)
 

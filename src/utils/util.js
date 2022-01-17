@@ -7,14 +7,38 @@ const { BUSINESS_ERROR } = require('../config/err.type')
 
 module.exports = {
     success({ data = {}, msg = 'OK', code = 200 }, ctx) {
-        log4js.debug(data);
+        const { method, url } = ctx.request
+        let params;
+        if (method.toLowerCase() == "get") {
+            params = ctx.request.query
+        } else {
+            params = ctx.request.body
+        }
+        log4js.debug(`******************Request******************
+        =>${method}  ${url}
+        =>params - ${JSON.stringify(params)}
+        =>Response - SUCCESS
+        =>data - ${JSON.stringify(data).substr(0, 600)} ...
+        `);
         ctx.body = {
             code, data, msg
         }
 
     },
     fail({ msg = BUSINESS_ERROR.msg, code = BUSINESS_ERROR.code, data = {} }, ctx) {
-        log4js.debug(msg);
+        const { method, url } = ctx.request
+        let params;
+        if (method.toLowerCase() == "get") {
+            params = ctx.request.query
+        } else {
+            params = ctx.request.body
+        }
+        log4js.debug(`******************Request******************
+        =>${method}  ${url}
+        =>params - ${JSON.stringify(params)}
+        =>Response - FAIL
+        =>message - ${msg} ...
+        `);
         ctx.body = {
             code, data, msg
         }

@@ -1,0 +1,356 @@
+{
+    "RECORDS": [
+        {
+            "__v": 0,
+            "_id": "6030ca8f93f0e159c8390f0c",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.657",
+            "icon": null,
+            "menuCode": "user-create",
+            "menuName": "新增",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "600d525e602f452aaeeffcd9"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 09:58:31.331"
+        },
+        {
+            "__v": 0,
+            "_id": "603226d9257d15a8c54cf9f8",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.664",
+            "icon": null,
+            "menuCode": "user-delete",
+            "menuName": "批量删除",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "600d525e602f452aaeeffcd9"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:10:05.529"
+        },
+        {
+            "__v": 0,
+            "_id": "603253e0a821c6bb59084541",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.664",
+            "icon": null,
+            "menuCode": "user-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "600d525e602f452aaeeffcd9"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:09:19.603"
+        },
+        {
+            "__v": null,
+            "_id": "600d525e602f452aaeeffcd9",
+            "component": "/system/user",
+            "createTime": "17/1/2022 09:54:24.668",
+            "icon": "",
+            "menuCode": "",
+            "menuName": "用户管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": "1",
+            "parentId": [
+                "600d4075e218daaf4ec77e52"
+            ],
+            "path": "/system/user",
+            "updateTime": "17/1/2022 10:01:09.631"
+        },
+        {
+            "__v": 0,
+            "_id": "60325400a821c6bb59084543",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.669",
+            "icon": null,
+            "menuCode": "menu-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601bc4f8a794e23c2e42efa9"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:10:40.842"
+        },
+        {
+            "__v": 0,
+            "_id": "6032540fa821c6bb59084544",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.67",
+            "icon": null,
+            "menuCode": "menu-create",
+            "menuName": "创建",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601bc4f8a794e23c2e42efa9"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:00:42.827"
+        },
+        {
+            "__v": 0,
+            "_id": "601bc4f8a794e23c2e42efa9",
+            "component": "/system/menu",
+            "createTime": "17/1/2022 09:54:24.683",
+            "icon": null,
+            "menuCode": null,
+            "menuName": "菜单管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52"
+            ],
+            "path": "/system/menu",
+            "updateTime": "17/1/2022 09:57:30.838"
+        },
+        {
+            "__v": 0,
+            "_id": "60325425a821c6bb59084545",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.684",
+            "icon": null,
+            "menuCode": "role-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601ca9a8a794e23c2e42efab"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:09:59.573"
+        },
+        {
+            "__v": 0,
+            "_id": "60325461a821c6bb59084546",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.685",
+            "icon": null,
+            "menuCode": "role-create",
+            "menuName": "创建",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601ca9a8a794e23c2e42efab"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:01:34.409"
+        },
+        {
+            "__v": 0,
+            "_id": "601ca9a8a794e23c2e42efab",
+            "component": "/system/role",
+            "createTime": "17/1/2022 09:54:24.697",
+            "icon": null,
+            "menuCode": null,
+            "menuName": "角色管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52"
+            ],
+            "path": "/system/role",
+            "updateTime": "17/1/2022 09:55:42.019"
+        },
+        {
+            "__v": 0,
+            "_id": "60325470a821c6bb59084547",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.698",
+            "icon": null,
+            "menuCode": "dept-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601cb172a794e23c2e42efac"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 09:56:15.329"
+        },
+        {
+            "__v": 0,
+            "_id": "6032547da821c6bb59084548",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.699",
+            "icon": null,
+            "menuCode": "dept-create",
+            "menuName": "创建",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52",
+                "601cb172a794e23c2e42efac"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:01:18.661"
+        },
+        {
+            "__v": 0,
+            "_id": "601cb172a794e23c2e42efac",
+            "component": "/system/dept",
+            "createTime": "17/1/2022 09:54:24.701",
+            "icon": null,
+            "menuCode": null,
+            "menuName": "部门管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                "600d4075e218daaf4ec77e52"
+            ],
+            "path": "/system/dept",
+            "updateTime": "17/1/2022 10:05:06.431"
+        },
+        {
+            "__v": null,
+            "_id": "600d4075e218daaf4ec77e52",
+            "component": "",
+            "createTime": "17/1/2022 09:54:24.701",
+            "icon": "el-icon-setting",
+            "menuCode": "",
+            "menuName": "系统管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": "0",
+            "parentId": [
+                null
+            ],
+            "path": "/system",
+            "updateTime": "17/1/2022 10:03:36.789"
+        },
+        {
+            "__v": 0,
+            "_id": "603254a8a821c6bb59084549",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.702",
+            "icon": null,
+            "menuCode": "leave-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "601b9eb25929c81a1f988bb0",
+                "601bc763a794e23c2e42efaa"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:04:46.698"
+        },
+        {
+            "__v": 0,
+            "_id": "603254baa821c6bb5908454a",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.702",
+            "icon": null,
+            "menuCode": "leave-create",
+            "menuName": "申请休假",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "601b9eb25929c81a1f988bb0",
+                "601bc763a794e23c2e42efaa"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:06:55.52"
+        },
+        {
+            "__v": 0,
+            "_id": "601bc763a794e23c2e42efaa",
+            "component": "/audit/leave",
+            "createTime": "17/1/2022 09:54:24.718",
+            "icon": null,
+            "menuCode": null,
+            "menuName": "休假申请",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                "601b9eb25929c81a1f988bb0"
+            ],
+            "path": "/audit/leave",
+            "updateTime": "17/1/2022 10:06:59.862"
+        },
+        {
+            "__v": 0,
+            "_id": "60361f35a821c6bb5908454d",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.718",
+            "icon": null,
+            "menuCode": "approve-query",
+            "menuName": "查看",
+            "menuState": 1,
+            "menuType": 2,
+            "order": null,
+            "parentId": [
+                "601b9eb25929c81a1f988bb0",
+                "602fd045bf465a015fef54dc"
+            ],
+            "path": null,
+            "updateTime": "17/1/2022 10:10:09.971"
+        },
+        {
+            "__v": 0,
+            "_id": "602fd045bf465a015fef54dc",
+            "component": "/audit/approve",
+            "createTime": "17/1/2022 09:54:24.719",
+            "icon": null,
+            "menuCode": null,
+            "menuName": "待我审批",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                "601b9eb25929c81a1f988bb0"
+            ],
+            "path": "/audit/approve",
+            "updateTime": "17/1/2022 10:09:07.61"
+        },
+        {
+            "__v": 0,
+            "_id": "601b9eb25929c81a1f988bb0",
+            "component": null,
+            "createTime": "17/1/2022 09:54:24.733",
+            "icon": "el-icon-s-promotion",
+            "menuCode": null,
+            "menuName": "审批管理",
+            "menuState": 1,
+            "menuType": 1,
+            "order": null,
+            "parentId": [
+                null
+            ],
+            "path": "/audit",
+            "updateTime": "17/1/2022 10:00:08.261"
+        }
+    ]
+}

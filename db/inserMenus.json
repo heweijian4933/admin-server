@@ -1,0 +1,452 @@
+db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T09:58:31.331Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.657Z"),
+    "_id": "6030ca8f93f0e159c8390f0c",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "新增",
+    "menuCode": "user-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:10:05.529Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.664Z"),
+    "_id": "603226d9257d15a8c54cf9f8",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "批量删除",
+    "menuCode": "user-delete",
+    "__v": 0
+})     
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:09:19.603Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.664Z"),
+    "_id": "603253e0a821c6bb59084541",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "user-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:06:39.904Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.664Z"),
+    "_id": "6030ca8f93f0e159c8390f0c",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "新增",
+    "menuCode": "user-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:03:00.343Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.664Z"),
+    "_id": "603226d9257d15a8c54cf9f8",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "批量删除",
+    "menuCode": "user-delete",
+    "__v": 0
+})     
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "600d525e602f452aaeeffcd9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:00:02.871Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.667Z"),
+    "_id": "603253e0a821c6bb59084541",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "user-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52"
+    ],
+    "updateTime": ISODate("2022-01-17T10:01:09.631Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.668Z"),
+    "_id": "600d525e602f452aaeeffcd9",
+    "menuType": 1,
+    "menuName": "用户管理",
+    "menuCode": "",
+    "path": "/system/user",
+    "icon": "",
+    "order": "1",
+    "component": "/system/user",
+    "menuState": 1
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601bc4f8a794e23c2e42efa9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:10:40.842Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.669Z"),
+    "_id": "60325400a821c6bb59084543",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "menu-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601bc4f8a794e23c2e42efa9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:00:42.827Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.670Z"),
+    "_id": "6032540fa821c6bb59084544",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "menu-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601bc4f8a794e23c2e42efa9"
+    ],
+    "updateTime": ISODate("2022-01-17T10:06:13.491Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.681Z"),
+    "_id": "60325400a821c6bb59084543",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "menu-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601bc4f8a794e23c2e42efa9"
+    ],
+    "updateTime": ISODate("2022-01-17T09:59:59.867Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.682Z"),
+    "_id": "6032540fa821c6bb59084544",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "menu-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52"
+    ],
+    "updateTime": ISODate("2022-01-17T09:57:30.838Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.683Z"),
+    "_id": "601bc4f8a794e23c2e42efa9",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "菜单管理",
+    "path": "/system/menu",
+    "component": "/system/menu",
+    "__v": 0
+})        
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601ca9a8a794e23c2e42efab"
+    ],
+    "updateTime": ISODate("2022-01-17T10:09:59.573Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.684Z"),
+    "_id": "60325425a821c6bb59084545",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "role-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601ca9a8a794e23c2e42efab"
+    ],
+    "updateTime": ISODate("2022-01-17T10:01:34.409Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.685Z"),
+    "_id": "60325461a821c6bb59084546",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "role-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601ca9a8a794e23c2e42efab"
+    ],
+    "updateTime": ISODate("2022-01-17T10:05:21.670Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.686Z"),
+    "_id": "60325425a821c6bb59084545",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "role-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601ca9a8a794e23c2e42efab"
+    ],
+    "updateTime": ISODate("2022-01-17T10:07:15.275Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.697Z"),
+    "_id": "60325461a821c6bb59084546",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "role-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52"
+    ],
+    "updateTime": ISODate("2022-01-17T09:55:42.019Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.697Z"),
+    "_id": "601ca9a8a794e23c2e42efab",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "角色管理",
+    "path": "/system/role",
+    "component": "/system/role",
+    "__v": 0
+})        
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601cb172a794e23c2e42efac"
+    ],
+    "updateTime": ISODate("2022-01-17T09:56:15.329Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.698Z"),
+    "_id": "60325470a821c6bb59084547",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "dept-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601cb172a794e23c2e42efac"
+    ],
+    "updateTime": ISODate("2022-01-17T10:01:18.661Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.699Z"),
+    "_id": "6032547da821c6bb59084548",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "dept-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601cb172a794e23c2e42efac"
+    ],
+    "updateTime": ISODate("2022-01-17T10:07:05.386Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.700Z"),
+    "_id": "60325470a821c6bb59084547",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "dept-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52",
+        "601cb172a794e23c2e42efac"
+    ],
+    "updateTime": ISODate("2022-01-17T10:08:03.276Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.700Z"),
+    "_id": "6032547da821c6bb59084548",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "创建",
+    "menuCode": "dept-create",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "600d4075e218daaf4ec77e52"
+    ],
+    "updateTime": ISODate("2022-01-17T10:05:06.431Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.701Z"),
+    "_id": "601cb172a794e23c2e42efac",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "部门管理",
+    "path": "/system/dept",
+    "component": "/system/dept",
+    "__v": 0
+})        
+    db.getCollection("menus").insert({
+    "parentId": [
+        null
+    ],
+    "updateTime": ISODate("2022-01-17T10:03:36.789Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.701Z"),
+    "_id": "600d4075e218daaf4ec77e52",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "系统管理",
+    "menuCode": "",
+    "path": "/system",
+    "icon": "el-icon-setting",
+    "order": "0",
+    "component": ""
+})    
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "601bc763a794e23c2e42efaa"
+    ],
+    "updateTime": ISODate("2022-01-17T10:04:46.698Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.702Z"),
+    "_id": "603254a8a821c6bb59084549",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "leave-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "601bc763a794e23c2e42efaa"
+    ],
+    "updateTime": ISODate("2022-01-17T10:06:55.520Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.702Z"),
+    "_id": "603254baa821c6bb5908454a",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "申请休假",
+    "menuCode": "leave-create",
+    "__v": 0
+})    
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "601bc763a794e23c2e42efaa"
+    ],
+    "updateTime": ISODate("2022-01-17T10:08:17.273Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.703Z"),
+    "_id": "603254a8a821c6bb59084549",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "leave-query",
+    "__v": 0
+})
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "601bc763a794e23c2e42efaa"
+    ],
+    "updateTime": ISODate("2022-01-17T10:04:23.942Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.717Z"),
+    "_id": "603254baa821c6bb5908454a",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "申请休假",
+    "menuCode": "leave-create",
+    "__v": 0
+})    
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0"
+    ],
+    "updateTime": ISODate("2022-01-17T10:06:59.862Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.718Z"),
+    "_id": "601bc763a794e23c2e42efaa",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "休假申请",
+    "path": "/audit/leave",
+    "component": "/audit/leave",
+    "__v": 0
+})        
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "602fd045bf465a015fef54dc"
+    ],
+    "updateTime": ISODate("2022-01-17T10:10:09.971Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.718Z"),
+    "_id": "60361f35a821c6bb5908454d",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "approve-query",
+    "__v": 0
+})       
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0",
+        "602fd045bf465a015fef54dc"
+    ],
+    "updateTime": ISODate("2022-01-17T10:07:36.965Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.719Z"),
+    "_id": "60361f35a821c6bb5908454d",
+    "menuType": 2,
+    "menuState": 1,
+    "menuName": "查看",
+    "menuCode": "approve-query",
+    "__v": 0
+})       
+    db.getCollection("menus").insert({
+    "parentId": [
+        "601b9eb25929c81a1f988bb0"
+    ],
+    "updateTime": ISODate("2022-01-17T10:09:07.610Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.719Z"),
+    "_id": "602fd045bf465a015fef54dc",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "待我审批",
+    "path": "/audit/approve",
+    "component": "/audit/approve",
+    "__v": 0
+})    
+    db.getCollection("menus").insert({
+    "parentId": [
+        null
+    ],
+    "updateTime": ISODate("2022-01-17T10:00:08.261Z"),
+    "createTime": ISODate("2022-01-17T09:54:24.733Z"),
+    "_id": "601b9eb25929c81a1f988bb0",
+    "menuType": 1,
+    "menuState": 1,
+    "menuName": "审批管理",
+    "path": "/audit",
+    "icon": "el-icon-s-promotion",
+    "__v": 0
+})

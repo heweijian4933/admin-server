@@ -6,4 +6,4 @@ const counterSchema = mongoose.Schema({
     "sequence_value": Number,//要自增的字段
 })
 
-module.exports = mongoose.model("counter", counterSchema, "counter")
+module.exports = mongoose.model("counters", counterSchema, "counters")
