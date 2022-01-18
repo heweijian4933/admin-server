@@ -2,7 +2,8 @@
 const mongoose = require('mongoose')
 
 const menuSchema = mongoose.Schema({
-    "parentId": [mongoose.Types.ObjectId],
+    "_id": String,//mongoose 默认主键, //设定为String以后,每次新增记录时需要传入_id字段参数
+    "parentId": [String],
     "menuType": Number, //菜单类型: 1:菜单,2:按钮
     "menuState": Number, //菜单状态: 1:正常,2:停用
     "menuName": String, //菜单名称,例如:系统管理

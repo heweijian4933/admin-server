@@ -1,6 +1,6 @@
 const log4js = require('../utils/log4j')
 const { PARAM_ERROR, BUSINESS_ERROR } = require('../config/err.type')
-const { find, findMany, update, add } = require('../service/menus.service')
+const { find, findMany, updateById, add, deleteById } = require('../service/menus.service')
 const util = require('../utils/util')
 class MenuController {
 
@@ -45,9 +45,10 @@ class MenuController {
 
 
         try {
-            let res = await findMany(params, { __v: 0 }, "fuzzy") //具体见findManyMenus参数要求
+            let res = await findMany(params, { __v: 0 }, "fuzzy",params.menuName?true:false) //具体见findManyMenus参数要求
             if (res) {
-                return util.success({ data: res }, ctx)
+                let menuList = util.getTreeMenu(res, null, [])
+                return util.success({ data: menuList }, ctx)
             }
         } catch (error) {
             log4js.info(error.stack)
@@ -59,20 +60,21 @@ class MenuController {
 
     async deleteMenu(ctx, next) {
         // 参数校验
-        const { userIds } = ctx.request.body
-        if (!userIds || !Object.prototype.toString.call(userIds).includes('Array') || userIds.length <= 0) {
-            return util.fail(PARAM_ERROR, ctx)
-        }
+        const { _id } = ctx.request.body
+        if (!_id) return util.fail(PARAM_ERROR, ctx)
+
         try {
-            let res = await update(userIds, { state: 2 })
-            if (res) return util.success({ data: { affectedDocs: res.modifiedCount }, msg: `共删除${res.modifiedCount}条` }, ctx)
+            let res = await deleteById(_id)
+            if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共删除1条` }, ctx)
 
         } catch (err) {
-            log4js.info(error.stack)
+            log4js.info(err.stack)
         }
         return util.fail(BUSINESS_ERROR, ctx)
 
     }
+
+
 
 
     async updateMenu(ctx, next) {
@@ -85,13 +87,13 @@ class MenuController {
         }
 
         const params = { children, component, icon, menuName, menuState, menuType, parentId, path, }
-        // try {
-        const res = await update(_id, params)
-        if (res) return util.success({ data: { affectedDocs: res.modifiedCount }, msg: `共更新${res.modifiedCount}条` }, ctx)
+        try {
+            const res = await updateById(_id, params)
+            if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共更新1条` }, ctx)
 
-        // } catch (err) {
-        //     log4js.info(err.stack)
-        // }
+        } catch (err) {
+            log4js.info(err.stack)
+        }
         return util.fail(BUSINESS_ERROR, ctx)
 
 

@@ -2,7 +2,7 @@ const User = require('../db/users.schema')
 const Counters = require('../db/counters.schema')
 const log4js = require('../utils/log4j')
 const util = require('../utils/util')
-
+const ObjectId = require('mongoose').Types.ObjectId
 // 获取全局userSchema字段
 const schemaKeys = Object.keys(User.schema.tree);
 /**
@@ -45,10 +45,13 @@ module.exports = {
             userPwd, //Todo: 增加密码修改功能
             mobile, job, state, role = 1, roleList, deptId, sex, remark
         } = params
+
+        const _id = new ObjectId().toString()
         try {
             const { sequence_value } = await Counters.findOneAndUpdate({ '_id': "userId" }, { $inc: { sequence_value: 1 } })// 从另外维护的表查询 userId 最新值并让其自增 1
             if (sequence_value) userId = sequence_value + '' //将数字转换为 String(userId格式为 String)
             let res = await User.create({
+                _id,
                 userId,
                 ...params,
                 createTime: new Date(),
@@ -82,7 +85,7 @@ module.exports = {
         if (searchMode === "fuzzy") {
             for (key in params) {
                 let value = params[key]
-                if (Object.prototype.toString.call(value).includes('String') || key === 'userId') {
+                if (Object.prototype.toString.call(value).includes('String')) {
                     // 如果该类型是字符串或者是userId才进行模糊检索
                     let reg = new RegExp(value, 'i')
                     value = reg
@@ -90,8 +93,6 @@ module.exports = {
             }
         }
         let res = await User.findOne(params, projection)
-
-        console.log(res);
         if (res) return res.toObject()
         // 返回的res是一个mongoose Model对象,需要用附带的toObject方法处理成纯粹的对象格式
         // [警告]:如果res带用户密码,在controller层需要做处理,禁止暴露到前端
@@ -102,7 +103,7 @@ module.exports = {
     /**
      * 查找多个用户并做分页处理
      * @param {Object} params - 查找的字段根据
-     * @param {Object} [pager={ pageNum: '1', pageSize: '10' }] - 查找的字段根据
+     * @param {Object} [pager={ pageNum: '1', pageSize: '10' }] - 分页配置
      * @param {Object=} [projection={ userPwd: 0, __v: 0 }] - 返回结果中要排除的字段
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
@@ -136,7 +137,6 @@ module.exports = {
      */
     async updateMany(ids, params) {
         let res = await User.updateMany({ userId: { $in: ids } }, params)
-        console.log("res=>", res);
         if (res && res.acknowledged) return res
         return false
     },

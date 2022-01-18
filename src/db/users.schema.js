@@ -2,7 +2,8 @@
 const mongoose = require('mongoose')
 
 const usersSchema = mongoose.Schema({
-    "userId": String,//用户ID，自增长
+    "_id": String,//mongoose 默认主键 //设定为String以后,每次新增记录时需要传入_id字段参数
+    "userId": String,//用户ID，自增长 //自增长的ID用单独的表counters维护
     "userName": String,//用户名称
     "userPwd": String,//用户密码，md5加密
     "userEmail": String,//用户邮箱
