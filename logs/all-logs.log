@@ -5206,3 +5206,6 @@
 [2022-01-18T17:36:29.395] [INFO] info - admin server is running at http://localhost:8000
 [2022-01-18T17:36:29.405] [INFO] info - environment dev
 [2022-01-18T17:36:29.460] [INFO] info - ***数据库连接成功***
+[2022-01-19T10:28:08.959] [INFO] info - admin server is running at http://localhost:8000
+[2022-01-19T10:28:08.962] [INFO] info - environment dev
+[2022-01-19T10:28:09.267] [INFO] info - ***数据库连接成功***
