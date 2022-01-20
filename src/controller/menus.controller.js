@@ -24,10 +24,10 @@ class MenuController {
 
 
 
-    // 获取菜单列表
-    async menuList(ctx, next) {
-        let { menuName, menuState } = ctx.request.query
-
+    // 获取菜单列表 - 树形结构
+    async menuTreeList(ctx, next) {
+        //menuState = 1必不可少, 在前端获取菜单侧边栏的时候此时没有入参, 但是我们默认只获取状态正常的菜单,所以默认menuState = 1
+        let { menuName, menuState = 1 } = ctx.request.query
         //参数校验和处理
         const params = {}
         if (menuName) params.menuName = menuName
@@ -45,7 +45,8 @@ class MenuController {
 
 
         try {
-            let res = await findMany(params, { __v: 0 }, "fuzzy",params.menuName?true:false) //具体见findManyMenus参数要求
+            let res = await findMany(params, { __v: 0 }, "fuzzy", params.menuName ? true : false) //具体见findManyMenus参数要求
+            console.log(res);
             if (res) {
                 let menuList = util.getTreeMenu(res, null, [])
                 return util.success({ data: menuList }, ctx)

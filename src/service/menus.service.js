@@ -132,9 +132,8 @@ module.exports = {
     /**
      * 删除菜单(单个)
      * @param {Array} _id - 菜单 id
-     * @param {Object} params  - 要删除的字段信息
      */
-    async deleteById(_id, params) {
+    async deleteById(_id) {
         let res = await Menu.findByIdAndDelete(_id)
         // 除了删除该记录外, 还需要删除parentId里面包含该_id的记录, 也就是将子级的菜单一并删除, 避免造成菜单层级混乱
         let delRelatedDocs = await Menu.deleteMany({ parentId: { $all: [_id] } })

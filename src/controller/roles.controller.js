@@ -5,16 +5,16 @@ const util = require('../utils/util')
 class RoleController {
 
     async createRole(ctx, next) {
-        const { component, icon, menuName, menuState, menuType, parentId, path, } = ctx.request.body
+        const { roleName, remark } = ctx.request.body
         // 参数校验
-        if (!menuName || (menuType == 1 && !path)) {
+        if (!roleName) {
             return util.fail(PARAM_ERROR, ctx)
         }
 
-        const params = { component, icon, menuName, menuState, menuType, parentId, path, }
+        const params = { roleName, remark }
         let res = await add(params)
         if (res) {
-            return util.success({ data: { affectedDocs: 1, menu: res } }, ctx)
+            return util.success({ data: { affectedDocs: 1 } }, ctx)
         }
 
         return util.fail(BUSINESS_ERROR, ctx)
@@ -24,31 +24,29 @@ class RoleController {
 
 
 
-    // 获取菜单列表
-    async RoleList(ctx, next) {
-        let { menuName, menuState } = ctx.request.query
+    // 获取用户列表(需要分页)
+    async roleList(ctx, next) {
+        const { roleName, pageSize = 10, pageNum = 1 } = ctx.request.query
 
         //参数校验和处理
-        const params = {}
-        if (menuName) params.menuName = menuName
-        menuState = menuState * 1;//将query的字符串数字转换成Number类型
-        if (isNaN(menuState)) {
-            //如果menuState转换后是NaN,说明入参格式不对;字符串数字转换为Number类型以后不会是NaN
-            return util.fail(PARAM_ERROR, ctx)
-        } else if (menuState) {
-            // 如果menuState 符合| 1：正常 2：停用 [提示]这里其实写法还可以更加严谨一点
-            params.menuState = menuState
-        } else {
-            // 如果menuState 符合 0:所有
-            // do nothing, 也就是params没有menuState字段
-        };
+        let params = {}
+        if (roleName) params.roleName = roleName;
 
+        // 入参注释和校验请跳转查看工具类(pageSize和pageNum在get请求内类型为String)
+        const pager = util.pager({ pageNum, pageSize })
 
         try {
-            let res = await findMany(params, { __v: 0 }, "fuzzy", params.menuName ? true : false) //具体见findManyMenus参数要求
+            let res = await findMany(params, pager, { __v: 0 }, params.roleName ? true : false)
             if (res) {
-                let menuList = util.getTreeMenu(res, null, [])
-                return util.success({ data: menuList }, ctx)
+                const { list, total } = res
+                return util.success({
+                    data: {
+                        page: {
+                            ...pager.page, total: total,
+                        },
+                        list: list
+                    }
+                }, ctx)
             }
         } catch (error) {
             log4js.info(error.stack)
@@ -56,9 +54,24 @@ class RoleController {
 
         return util.fail(BUSINESS_ERROR, ctx)
     }
-    // 获取全量角色列表
-    async roleAllList(ctx, next) {
 
+    // 获取全量角色列表(无需分页,排除部分不需要的字段)
+    async roleAllList(ctx, next) {
+        try {
+            let res = await findMany({}, undefined, { _v: 0, remark: 0, permissionList: 0, createTime: 0, updateTime: 0 }, "precise")
+            if (res) {
+                const { list, total } = res
+                return util.success({
+                    data: {
+                        list,
+                    }
+                }, ctx)
+            }
+        } catch (error) {
+            log4js.info(error.stack)
+        }
+
+        return util.fail(BUSINESS_ERROR, ctx)
     }
 
     async deleteRole(ctx, next) {
@@ -83,13 +96,13 @@ class RoleController {
     async updateRole(ctx, next) {
         const {
             _id,
-            children, component, icon, menuName, menuState, menuType, parentId, path,
+            roleName, remark,
         } = ctx.request.body
-        if (!_id || (menuType == 1 && !path)) {
+        if (!_id) {
             return util.fail(PARAM_ERROR, ctx)
         }
 
-        const params = { children, component, icon, menuName, menuState, menuType, parentId, path, }
+        const params = { roleName, remark, }
         try {
             const res = await updateById(_id, params)
             if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共更新1条` }, ctx)
@@ -98,8 +111,26 @@ class RoleController {
             log4js.info(err.stack)
         }
         return util.fail(BUSINESS_ERROR, ctx)
+    }
 
+    async updateRolePermission(ctx, next) {
+        const {
+            _id,
+            permissionList,
+        } = ctx.request.body
+        if (!_id || !permissionList) {
+            return util.fail(PARAM_ERROR, ctx)
+        }
 
+        const params = { permissionList, }
+        try {
+            const res = await updateById(_id, params)
+            if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共更新1条` }, ctx)
+
+        } catch (err) {
+            log4js.info(err.stack)
+        }
+        return util.fail(BUSINESS_ERROR, ctx)
     }
 
 }

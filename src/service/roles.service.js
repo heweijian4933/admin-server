@@ -29,30 +29,28 @@ const handleProjection = (projection = {}) => {
 module.exports = {
 
     /**
-     * 添加菜单
-     * @param {Object} params - 查找的字段根据
-     * @param {String} params.userId - 菜单ID ,字符串数字, 必须
-     * @param {String} params.userName - 菜单姓名 必须
-     * @param {String} params.userPwd - 菜单密码 必须
-     * @param {String} params.userEmail - 菜单邮箱 必须
-     * @param {Array} params.deptId - 菜单所在部门 ID 必须
+     * 添加角色
+     * @param {Object} params
+     * @param {String} params.roleName - 角色名称
+     * @param {String} params.userName - 角色备注
+     * @param {Array} params.permissionList - 角色权限列表
      */
     async add(params) {
         const _id = new ObjectId().toString()
-        let res = await Role.create({ _id, ...params, createTime: new Date() })
+        let res = await Role.create({ _id, ...params, createTime: new Date(), updateTime: null })
         if (res) return res.toObject()
         return false
     },
 
     /**
-     * 查找单个菜单
+     * 查找单个角色
      * @param {Object} params - 查找的字段根据
      * @param {Object=} [projection={ __v: 0 }] - 返回结果中要排除的字段
      * @param {Number || Boolean} [projection.__v=0] - 返回结果中默认排除字段__v
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
     async find(params, projection = { __v: 0 }, searchMode = "precise") {
-        // 默认projection = { userPwd: 0 }, 表示默认不返回菜单密码字段
+        // 默认projection = { userPwd: 0 }, 表示默认不返回角色密码字段
         projection = handleProjection(projection)
         if (searchMode === "fuzzy") {
             for (key in params) {
@@ -67,18 +65,17 @@ module.exports = {
         let res = await Role.findOne(params, projection)
         if (res) return res.toObject()
         // 返回的res是一个mongoose Model对象,需要用附带的toObject方法处理成纯粹的对象格式
-        // [警告]:如果res带菜单密码,在controller层需要做处理,禁止暴露到前端
         return false
 
     },
 
     /**
-     * 查找多个菜单(无需分页)
+     * 查找多个角色(分页 或者 不分页)
      * @param {Object} params - 查找的字段根据
      * @param {Object=} [projection={ __v: 0 }] - 返回结果中 要排除的字段
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
-    async findMany(params, projection = { __v: 0 }, searchMode = "precise", recursion = false) {
+    async findMany(params, pager, projection = { __v: 0 }, searchMode = "precise") {
         projection = handleProjection(projection)
         if (searchMode === "fuzzy") {
             for (key in params) {
@@ -90,37 +87,26 @@ module.exports = {
                 }
             }
         }
-        let res = await Role.find(params, projection)
-        if (res) {
-            if (recursion) {
-                // 如果需要循环获取相关的菜单
-                for (let Role of res) {
-                    const findRelatedDocs = await Role.find({
-                        $or: [{ parentId: { $all: [Role._id] } }, { _id: { $in: Role.parentId } }]
-                    })
-                    // 如果relatedDoc的parentId{Array}当中带有Role._id, 说明当前Role是relatedDoc的父级菜单中的一环,所以relatedDoc要提取
-                    // 如果relatedDoc的_id 在 Role.parentId{Array}当中, 说明当前Role是relatedDoc的子级菜单中的一环,所以relatedDoc要提取
-                    // 总结: 提取关联菜单
-
-                    //对于获取的记录findRelatedDocs肯定存在多处重复值, 所以要和初始获取的记录进行去重处理
-                    let obj = {}
-                    res = [...res, ...findRelatedDocs].reduce((prev, curr) => {
-                        //当对象里没有所传属性时，给属性true并PUSH数组
-                        obj[curr._id] ? '' : (obj[curr._id] = true && prev.push(curr))
-                        return prev
-                    }, [])
-                }
-            }
-
-            return res //后续对菜单列表进行树形结构拼接的工作在controller层进行
+        let res, count;
+        if (pager) { //如果需要分页
+            const { page, skipIndex } = pager //默认值{ page:{ pageNum: 1, pageSize: 10 }, skipIndex:0 }见utils/util.pager
+            const query = Role.find(params, projection)
+            res = await query.skip(skipIndex).limit(page.pageSize)
+            count = await Role.countDocuments()
+            if (res) return { list: res, total: count }
+        } else {//如果不需要分页
+            res = await Role.find(params, projection)
+            count = await Role.countDocuments()
+            if (res) return { list: res, total: count }
         }
+
         return false
 
     },
 
     /**
-     * 更新菜单(单个)
-     * @param {Array} _id - 菜单 id
+     * 更新角色(单个)
+     * @param {Array} _id - 角色 id
      * @param {Object} params  - 要更新的字段信息
      */
     async updateById(_id, params) {
@@ -130,15 +116,12 @@ module.exports = {
     },
 
     /**
-     * 删除菜单(单个)
-     * @param {Array} _id - 菜单 id
-     * @param {Object} params  - 要删除的字段信息
+     * 删除角色(单个)
+     * @param {Array} _id - 角色 id
      */
-    async deleteById(_id, params) {
+    async deleteById(_id) {
         let res = await Role.findByIdAndDelete(_id)
-        // 除了删除该记录外, 还需要删除parentId里面包含该_id的记录, 也就是将子级的菜单一并删除, 避免造成菜单层级混乱
-        let delRelatedDocs = await Role.deleteMany({ parentId: { $all: [_id] } })
-        if (res && delRelatedDocs) return res
+        if (res) return res
         return false
     },
 

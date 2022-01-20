@@ -70,12 +70,12 @@ class UserController {
         return util.fail(USER_ACCOUNT_ERROR, ctx)
     }
 
-    // 获取用户列表
+    // 获取用户列表(带分页)
     async userList(ctx, next) {
         let {
             userId,
             userName,
-            state, 			// 0:所有 | 1：在职 2：离职 3：试用期
+            state = 1, 			// 0:所有 | 1：在职 2：离职 3：试用期
             pageNum = 1, 	// 当前页码
             pageSize = 10   // 每页条数，默认10
         } = ctx.request.query
@@ -88,7 +88,7 @@ class UserController {
         if (isNaN(state)) {
             //如果state转换后是NaN,说明入参格式不对;字符串数字转换为Number类型以后不会是NaN
             return util.fail(PARAM_ERROR, ctx)
-        } else if (state) {
+        } else if (state && state > 0) {
             // 如果state 符合| 1：在职 2：离职 3：试用期; [提示]这里其实写法还可以更加严谨一点
             params.state = state
         } else {
@@ -108,6 +108,47 @@ class UserController {
                         page: {
                             ...pager.page, total: total,
                         },
+                        list: list
+                    }
+                }, ctx)
+            }
+        } catch (error) {
+            log4js.info(error.stack)
+        }
+
+        return util.fail(BUSINESS_ERROR, ctx)
+    }
+
+    // 获取用户全量列表(不带分页)
+    async userAllList(ctx, next) {
+        let {
+            userId,
+            userName,
+            state = 1, 			// 0:所有 | 1：在职 2：离职 3：试用期
+        } = ctx.request.query
+
+        //参数校验和处理
+        let params = {}
+        if (userId) params.userId = userId;
+        if (userName) params.userName = userName;
+        state = state * 1;//将query的字符串数字转换成Number类型
+        if (isNaN(state)) {
+            //如果state转换后是NaN,说明入参格式不对;字符串数字转换为Number类型以后不会是NaN
+            return util.fail(PARAM_ERROR, ctx)
+        } else if (state && state > 0) {
+            // 如果state 符合| 1：在职 2：离职 3：试用期; [提示]这里其实写法还可以更加严谨一点
+            params.state = state
+        } else {
+            // 如果state 符合 0:所有
+            // do nothing, 也就是params没有state字段
+        };
+
+        try {
+            let res = await findMany(params, undefined, { __v: 0, userPwd: 0 }, "fuzzy")
+            if (res) {
+                const { list, total } = res
+                return util.success({
+                    data: {
                         list: list
                     }
                 }, ctx)

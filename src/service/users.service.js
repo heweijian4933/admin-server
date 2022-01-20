@@ -107,9 +107,8 @@ module.exports = {
      * @param {Object=} [projection={ userPwd: 0, __v: 0 }] - 返回结果中要排除的字段
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
-    async findMany(params, pager = util.pager({}), projection = { userPwd: 0, __v: 0 }, searchMode = "precise") {
+    async findMany(params, pager, projection = { userPwd: 0, __v: 0 }, searchMode = "precise") {
         projection = handleProjection(projection)
-        const { page, skipIndex } = pager //默认值{ page:{ pageNum: 1, pageSize: 10 }, skipIndex:0 }见utils/util.pager
         if (searchMode === "fuzzy") {
             for (key in params) {
                 let value = params[key]
@@ -120,10 +119,17 @@ module.exports = {
                 }
             }
         }
-        const query = User.find(params, projection)
-        const res = await query.skip(skipIndex).limit(page.pageSize)
-        // const count = await User.find(params).countDocuments()
-        const count = await User.countDocuments(params)
+        let res;
+        if (pager) {
+            const { page, skipIndex } = pager //默认值{ page:{ pageNum: 1, pageSize: 10 }, skipIndex:0 }见utils/util.pager
+            const query = User.find(params, projection)
+            res = await query.skip(skipIndex).limit(page.pageSize)
+        } else {
+            console.log("no pager");
+            res = await User.find(params, projection)
+        }
+
+        const count = await User.countDocuments()
         if (res) return { list: res, total: count }
         // [警告]:如果res带用户密码,在controller层需要做处理
         return false
