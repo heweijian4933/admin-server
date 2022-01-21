@@ -119,10 +119,39 @@ function getTreeMenu(rootList, id, list) {
     return list
 }
 
+/**
+ * 递归拼装树形结构部门列表
+ * @param {Array} rootList 
+ * @param {String} [id=null] 
+ * @param {Array} list 
+ */
+function getTreeDept(rootList, id, list) {
+    console.log("params=>", { id, list });
+    for (let item of rootList) {
+        console.log("item.parentId.slice().pop()=>", item.parentId.slice().pop(), id);
+        console.log("item.parentId.slice().pop() == id", item.parentId.slice().pop() == id);
+        if (item.parentId.slice().pop() == id) {
+            list.push(item)
+        }
+    }
+    list.forEach(item => {
+        item.children = []
+        console.log("目前正在处理的item是", item);
+        getTreeDept(rootList, item._id, item.children)
+        // if (item.children.length <= 0) {
+        //     console.log("已经在删除", item, '的children');
+        //     delete item.children;
+        // }
+    })
+    console.log("list处理到阶段=>", list);
+    return list
+}
+
 module.exports = {
     success,
     fail,
     pager,
     formatDate,
     getTreeMenu,
+    getTreeDept,
 }

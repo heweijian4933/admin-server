@@ -18,7 +18,7 @@ app.use(KoaBody())
 app.use(swaggerUI)  //引入swagger ui
 
 app.use(swagger.routes())  //引入swagger router
-app.use(router.routes())
+app.use(router.routes()).use(router.allowedMethods());
 
 // error-handling
 app.on('error', (err, ctx) => {

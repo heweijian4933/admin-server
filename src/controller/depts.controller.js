@@ -1,17 +1,17 @@
 const log4js = require('../utils/log4j')
 const { PARAM_ERROR, BUSINESS_ERROR } = require('../config/err.type')
-const { find, findMany, updateById, add, deleteById } = require('../service/roles.service')
+const { find, findMany, updateById, add, deleteById } = require('../service/depts.service')
 const util = require('../utils/util')
-class RoleController {
+class DeptController {
 
-    async createRole(ctx, next) {
-        const { roleName, remark } = ctx.request.body
+    async createDept(ctx, next) {
+        const { deptName, parentId, userId } = ctx.request.body
         // 参数校验
-        if (!roleName) {
+        if (!deptName) {
             return util.fail(PARAM_ERROR, ctx)
         }
 
-        const params = { roleName, remark }
+        const params = { deptName, parentId, userId }
         let res = await add(params)
         if (res) {
             return util.success({ data: { affectedDocs: 1 } }, ctx)
@@ -25,18 +25,18 @@ class RoleController {
 
 
     // 获取用户列表(需要分页)
-    async roleList(ctx, next) {
-        const { roleName, pageSize = 10, pageNum = 1 } = ctx.request.query
+    async deptList(ctx, next) {
+        const { deptName, pageSize = 10, pageNum = 1 } = ctx.request.query
 
         //参数校验和处理
         let params = {}
-        if (roleName) params.roleName = roleName;
+        if (deptName) params.deptName = deptName;
 
         // 入参注释和校验请跳转查看工具类(pageSize和pageNum在get请求内类型为String)
         const pager = util.pager({ pageNum, pageSize })
 
         try {
-            let res = await findMany(params, pager, { __v: 0 }, params.roleName ? 'fuzzy' : 'precise')
+            let res = await findMany(params, pager, { __v: 0 }, params.deptName ? 'fuzzy' : 'precise')
             if (res) {
                 const { list, total } = res
                 return util.success({
@@ -55,10 +55,10 @@ class RoleController {
         return util.fail(BUSINESS_ERROR, ctx)
     }
 
-    // 获取全量角色列表(无需分页,排除部分不需要的字段)
-    async roleAllList(ctx, next) {
+    /* // 获取全量部门列表(无需分页,排除部分不需要的字段)
+    async deptAllList(ctx, next) {
         try {
-            let res = await findMany({}, undefined, { _v: 0, remark: 0, permissionList: 0, createTime: 0, updateTime: 0 }, "precise")
+            let res = await findMany({}, undefined, { _v: 0, }, "precise")
             if (res) {
                 const { list, total } = res
                 return util.success({
@@ -70,11 +70,38 @@ class RoleController {
         } catch (error) {
             log4js.info(error.stack)
         }
+        return util.fail(BUSINESS_ERROR, ctx)
+    } */
 
+    // 获取部门树形列表(无需分页)
+    async deptTreeList(ctx, next) {
+        const { deptName } = ctx.request.query
+
+        //参数校验和处理
+        let params = {}
+        if (deptName) params.deptName = deptName;
+
+        try {
+            let res = await findMany(params, undefined, { _v: 0, }, params.deptName ? 'fuzzy' : 'precise', true)
+            if (res) {
+                console.log("成功返回res");
+                let { list, total } = res
+                console.log("list=>", list);
+                if (list && list.length > 0) list = util.getTreeDept(list.slice(), null, [])
+                console.log("treeList=>", list);
+                return util.success({
+                    data: {
+                        list,
+                    }
+                }, ctx)
+            }
+        } catch (error) {
+            log4js.info(error.stack)
+        }
         return util.fail(BUSINESS_ERROR, ctx)
     }
 
-    async deleteRole(ctx, next) {
+    async deleteDept(ctx, next) {
         // 参数校验
         const { _id } = ctx.request.body
         if (!_id) return util.fail(PARAM_ERROR, ctx)
@@ -91,18 +118,16 @@ class RoleController {
     }
 
 
-
-
-    async updateRole(ctx, next) {
+    async updateDept(ctx, next) {
         const {
             _id,
-            roleName, remark,
+            deptName, userId, parentId
         } = ctx.request.body
         if (!_id) {
             return util.fail(PARAM_ERROR, ctx)
         }
 
-        const params = { roleName, remark, }
+        const params = { deptName, userId, parentId }
         try {
             const res = await updateById(_id, params)
             if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共更新1条` }, ctx)
@@ -113,27 +138,9 @@ class RoleController {
         return util.fail(BUSINESS_ERROR, ctx)
     }
 
-    async updateRolePermission(ctx, next) {
-        const {
-            _id,
-            permissionList,
-        } = ctx.request.body
-        if (!_id || !permissionList) {
-            return util.fail(PARAM_ERROR, ctx)
-        }
 
-        const params = { permissionList, }
-        try {
-            const res = await updateById(_id, params)
-            if (res) return util.success({ data: { affectedDocs: 1 }, msg: `共更新1条` }, ctx)
-
-        } catch (err) {
-            log4js.info(err.stack)
-        }
-        return util.fail(BUSINESS_ERROR, ctx)
-    }
 
 }
 
 
-module.exports = new RoleController()
+module.exports = new DeptController()

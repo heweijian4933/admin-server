@@ -43,10 +43,11 @@ class MenuController {
             // do nothing, 也就是params没有menuState字段
         };
 
+        console.log("params.menuName=>", params.menuName);
 
         try {
-            let res = await findMany(params, { __v: 0 }, "fuzzy", params.menuName ? true : false) //具体见findManyMenus参数要求
-            console.log(res);
+            let res = await findMany(params, { __v: 0 }, params.menuName ? "fuzzy" : "precise", true) //具体见findManyMenus参数要求
+            // console.log(res);
             if (res) {
                 let menuList = util.getTreeMenu(res, null, [])
                 return util.success({ data: menuList }, ctx)

@@ -1,5 +1,0 @@
-[2022-01-15T23:18:59.824] [ERROR] error - TypeError: Assignment to constant variable.
-    at addUser (/Users/stephen_ho_account/Documents/code/admin-server/src/service/users.service.js:58:21)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async createUser (/Users/stephen_ho_account/Documents/code/admin-server/src/controller/users.controller.js:35:19)
-    at async verifyToken (/Users/stephen_ho_account/Documents/code/admin-server/src/middleware/auth.js:22:5)
