@@ -50,7 +50,6 @@ module.exports = {
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
     async find(params, projection = { __v: 0 }, searchMode = "precise") {
-        // 默认projection = { userPwd: 0 }, 表示默认不返回角色密码字段
         projection = handleProjection(projection)
         if (searchMode === "fuzzy") {
             for (key in params) {
@@ -75,7 +74,7 @@ module.exports = {
      * @param {Object=} [projection={ __v: 0 }] - 返回结果中 要排除的字段
      * @param {String} [mode="precise"] - 默认采用精确匹配模式 "precise":精确匹配检索; "fuzzy":模糊匹配检索
      */
-    async findMany(params, pager, projection = { __v: 0 }, searchMode = "precise",recursion) {
+    async findMany(params, pager, projection = { __v: 0 }, searchMode = "precise") {
         projection = handleProjection(projection)
         if (searchMode === "fuzzy") {
             for (key in params) {

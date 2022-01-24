@@ -100,10 +100,10 @@ function pager({ pageNum = 1, pageSize = 10 }) {
  * @param {String} [id=null] 
  * @param {Array} list 
  */
-function getTreeMenu(rootList, id, list) {
+function getTreeMenu(rootList, id = null, list = []) {
     for (let item of rootList) {
         if (item.parentId.slice().pop() == id) {
-            list.push(item)
+            list.push(item._doc || item)
         }
     }
     list.forEach(item => {
@@ -125,25 +125,19 @@ function getTreeMenu(rootList, id, list) {
  * @param {String} [id=null] 
  * @param {Array} list 
  */
-function getTreeDept(rootList, id, list) {
-    console.log("params=>", { id, list });
+function getTreeDept(rootList, id = null, list = []) {
     for (let item of rootList) {
-        console.log("item.parentId.slice().pop()=>", item.parentId.slice().pop(), id);
-        console.log("item.parentId.slice().pop() == id", item.parentId.slice().pop() == id);
         if (item.parentId.slice().pop() == id) {
-            list.push(item)
+            list.push(item._doc || item)
         }
     }
     list.forEach(item => {
         item.children = []
-        console.log("目前正在处理的item是", item);
         getTreeDept(rootList, item._id, item.children)
         // if (item.children.length <= 0) {
-        //     console.log("已经在删除", item, '的children');
-        //     delete item.children;
+        //             //     delete item.children;
         // }
     })
-    console.log("list处理到阶段=>", list);
     return list
 }
 

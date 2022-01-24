@@ -144,7 +144,6 @@ module.exports = {
                     }, [])
                 }
             }
-            console.log('res=>', res);
             return { list: res, total: count }
         }
         return false

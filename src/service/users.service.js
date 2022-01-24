@@ -125,7 +125,6 @@ module.exports = {
             const query = User.find(params, projection)
             res = await query.skip(skipIndex).limit(page.pageSize)
         } else {
-            console.log("no pager");
             res = await User.find(params, projection)
         }
 

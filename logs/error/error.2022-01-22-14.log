@@ -1,0 +1,30 @@
+[2022-01-22T14:08:36.401] [ERROR] error - 
+    {}
+    {"method":"GET","url":"/api/users/list","header":{"user-agent":"PostmanRuntime/7.28.4","accept":"*/*","postman-token":"f9db71f3-a828-40f5-9074-9b0283699bd8","host":"localhost:8000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}}
+    TypeError: Cannot read property 'replace' of undefined
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:11:33)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at koaSwaggerUi (F:\code\node-koa\node_modules\koa2-swagger-ui\dist\index.js:82:16)
+    
+[2022-01-22T14:09:31.286] [ERROR] error - 
+    {}
+    {"method":"GET","url":"/api/users/list","header":{"user-agent":"PostmanRuntime/7.28.4","accept":"*/*","postman-token":"6a499aa0-ce2f-4210-a16a-abf7edc885bf","host":"localhost:8000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"}}
+    TypeError: Cannot read property 'replace' of undefined
+    at verifyToken (F:\code\node-koa\src\middleware\auth.js:11:33)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-router\lib\router.js:372:16
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at F:\code\node-koa\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:377:31)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-router\lib\router.js:353:32)
+    at dispatch (F:\code\node-koa\node_modules\koa-compose\index.js:42:32)
+    at koaSwaggerUi (F:\code\node-koa\node_modules\koa2-swagger-ui\dist\index.js:82:16)
+    

@@ -84,11 +84,8 @@ class DeptController {
         try {
             let res = await findMany(params, undefined, { _v: 0, }, params.deptName ? 'fuzzy' : 'precise', true)
             if (res) {
-                console.log("成功返回res");
                 let { list, total } = res
-                console.log("list=>", list);
                 if (list && list.length > 0) list = util.getTreeDept(list.slice(), null, [])
-                console.log("treeList=>", list);
                 return util.success({
                     data: {
                         list,

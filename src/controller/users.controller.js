@@ -60,7 +60,7 @@ class UserController {
                     //[重要]:将加密后的密码从返回值内删除,避免暴露到前端
                     let token = jwt.sign({ userInfo }, SECRET_KEY, { expiresIn: '1h' })
                     delete userInfo._id
-                    return util.success({ data: { ...userInfo, token } }, ctx)
+                    return util.success({ data: { userInfo, token } }, ctx)
                 }
             }
         } catch (error) {
